@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#087f5b" />
+    <meta
+      name="description"
+      content="Ứng dụng luyện thi nghiệp vụ Khối Vốn và Thị trường 2026 - Nhóm 2"
+    />
+    <title>Luyện thi nghiệp vụ VTT 2026</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <noscript>Ứng dụng cần JavaScript để hoạt động.</noscript>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="Trang bắt đầu">
+          <span class="brand-mark" aria-hidden="true">V</span>
+          <span>
+            <strong>VTT Quiz</strong>
+            <small>Nhóm 2 · 2026</small>
+          </span>
+        </a>
+        <div id="exam-status" class="exam-status" hidden>
+          <span id="progress-label">0/50 câu</span>
+          <span id="timer" class="timer" aria-live="polite">60:00</span>
+        </div>
+      </header>
+
+      <main>
+        <section id="start-screen" class="screen start-screen">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">Bộ đề nghiệp vụ Khối Vốn và Thị trường</span>
+              <h1>50 câu hỏi.<br /><span>Một đề thi đúng tỷ lệ.</span></h1>
+              <p class="hero-lead">
+                Mỗi lần bắt đầu là một đề mới, lấy ngẫu nhiên đúng số câu theo 14 mục tiêu.
+                Đáp án chỉ mở sau khi nộp bài hoặc hết giờ.
+              </p>
+
+              <div class="start-controls">
+                <label for="duration-select">Thời gian làm bài</label>
+                <select id="duration-select">
+                  <option value="30">30 phút</option>
+                  <option value="45">45 phút</option>
+                  <option value="60" selected>60 phút</option>
+                  <option value="90">90 phút</option>
+                </select>
+                <button id="start-button" class="button button-primary button-large" type="button">
+                  Bắt đầu làm bài
+                </button>
+                <button id="resume-button" class="button button-secondary" type="button" hidden>
+                  Tiếp tục bài đang làm
+                </button>
+              </div>
+
+              <div class="notice" role="note">
+                <span aria-hidden="true">i</span>
+                <p><strong>Dữ liệu nội bộ.</strong> Không chia sẻ công khai đường dẫn hoặc mã nguồn chứa câu hỏi.</p>
+              </div>
+            </div>
+
+            <aside class="plan-card" aria-labelledby="plan-title">
+              <div class="plan-heading">
+                <div>
+                  <span class="eyebrow">Cấu trúc đề</span>
+                  <h2 id="plan-title">14 mục tiêu · 50 câu</h2>
+                </div>
+                <span class="plan-total">50</span>
+              </div>
+              <div id="plan-list" class="plan-list"></div>
+            </aside>
+          </div>
+
+          <div class="feature-strip">
+            <article><strong>Ngẫu nhiên có kiểm soát</strong><span>Không trùng câu, đúng từng chỉ tiêu</span></article>
+            <article><strong>Tự lưu tiến độ</strong><span>Tải lại trang vẫn tiếp tục được</span></article>
+            <article><strong>Ôn tập sau thi</strong><span>Hiện đáp án, lựa chọn và tài liệu liên quan</span></article>
+          </div>
+        </section>
+
+        <section id="quiz-screen" class="screen quiz-screen" hidden>
+          <div class="quiz-layout">
+            <article class="question-card">
+              <div class="question-meta">
+                <span id="question-number" class="question-number">Câu 1</span>
+                <span id="question-code" class="question-code"></span>
+                <button id="flag-button" class="flag-button" type="button" aria-pressed="false">
+                  Đánh dấu
+                </button>
+              </div>
+              <h2 id="question-text" class="question-text"></h2>
+              <div id="options" class="options" role="radiogroup" aria-label="Các phương án"></div>
+
+              <div class="question-actions">
+                <button id="previous-button" class="button button-secondary" type="button">Câu trước</button>
+                <button id="next-button" class="button button-primary" type="button">Câu tiếp</button>
+              </div>
+            </article>
+
+            <aside class="navigator-card">
+              <div class="navigator-heading">
+                <div>
+                  <span class="eyebrow">Phiếu trả lời</span>
+                  <h2>Tiến độ làm bài</h2>
+                </div>
+                <strong id="answered-count">0/50</strong>
+              </div>
+              <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+              <div id="question-grid" class="question-grid" aria-label="Danh sách câu hỏi"></div>
+              <div class="legend">
+                <span><i class="legend-dot answered"></i>Đã trả lời</span>
+                <span><i class="legend-dot flagged"></i>Đánh dấu</span>
+              </div>
+              <button id="submit-button" class="button button-submit" type="button" disabled>
+                Nộp bài
+              </button>
+              <p id="submit-hint" class="submit-hint">Cần trả lời đủ 50 câu để nộp bài.</p>
+            </aside>
+          </div>
+        </section>
+
+        <section id="result-screen" class="screen result-screen" hidden>
+          <div class="result-hero">
+            <div>
+              <span class="eyebrow">Kết quả bài thi</span>
+              <h1 id="result-title">Hoàn thành!</h1>
+              <p id="result-message"></p>
+            </div>
+            <div class="score-ring" aria-label="Điểm số">
+              <strong id="score-value">0</strong>
+              <span>/ 50</span>
+            </div>
+          </div>
+
+          <div class="result-stats">
+            <article><span>Đúng</span><strong id="correct-count">0</strong></article>
+            <article><span>Sai</span><strong id="wrong-count">0</strong></article>
+            <article><span>Chưa trả lời</span><strong id="unanswered-count">0</strong></article>
+            <article><span>Thời gian</span><strong id="time-used">00:00</strong></article>
+          </div>
+
+          <div class="result-grid">
+            <section class="breakdown-card">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">Phân tích</span>
+                  <h2>Kết quả theo mục tiêu</h2>
+                </div>
+              </div>
+              <div id="breakdown-list" class="breakdown-list"></div>
+            </section>
+
+            <aside class="result-actions-card">
+              <h2>Sẵn sàng làm đề mới?</h2>
+              <p>Đề tiếp theo sẽ chọn lại ngẫu nhiên 50 câu theo cùng tỷ lệ.</p>
+              <button id="new-quiz-button" class="button button-primary button-large" type="button">
+                Làm đề mới
+              </button>
+              <button id="toggle-review-button" class="button button-secondary" type="button">
+                Xem đáp án chi tiết
+              </button>
+            </aside>
+          </div>
+
+          <section id="review-section" class="review-section" hidden>
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">Đáp án chi tiết</span>
+                <h2>Ôn lại 50 câu vừa làm</h2>
+              </div>
+            </div>
+            <div id="review-list" class="review-list"></div>
+          </section>
+        </section>
+      </main>
+
+      <footer>
+        <span>VTT Quiz 2026</span>
+        <span>Nguồn: Bộ câu hỏi nghiệp vụ VTT - Nhóm 2</span>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
