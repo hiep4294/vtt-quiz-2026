@@ -12,10 +12,22 @@ import {
   validateBank,
 } from "../quiz-core.js";
 
-test("question bank has 340 unique valid questions", () => {
-  assert.equal(QUESTION_BANK.length, 340);
+test("question bank has 373 unique valid questions", () => {
+  assert.equal(QUESTION_BANK.length, 373);
   assert.equal(validateBank(QUESTION_BANK), true);
-  assert.equal(new Set(QUESTION_BANK.map((question) => question.id)).size, 340);
+  assert.equal(new Set(QUESTION_BANK.map((question) => question.id)).size, 373);
+  const normalize = (value) =>
+    value
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/đ/g, "d")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  const normalizedQuestionContent = QUESTION_BANK.map((question) =>
+    [question.question, ...Object.values(question.options)].map(normalize).join("|"),
+  );
+  assert.equal(new Set(normalizedQuestionContent).size, 373);
   for (const question of QUESTION_BANK) {
     assert.match(question.id, /^VTT\d+\.\d+$/);
     assert.match(question.answer, /^[ABCD]$/);
@@ -25,7 +37,7 @@ test("question bank has 340 unique valid questions", () => {
   }
 });
 
-test("1,000 random exams always follow the 14-pool, 50-question plan", () => {
+test("1,000 random exams always follow the 15-pool, 50-question plan", () => {
   for (let run = 0; run < 1_000; run += 1) {
     const quiz = buildQuiz(QUESTION_BANK);
     assert.equal(quiz.length, TOTAL_QUESTIONS);

@@ -10,7 +10,7 @@ import {
 } from "./quiz-core.js";
 
 const STORAGE_KEY = "vtt-quiz-2026-active-attempt";
-const STORAGE_VERSION = 2;
+const STORAGE_VERSION = 3;
 const DISPLAY_LETTERS = OPTION_KEYS;
 
 const elements = {

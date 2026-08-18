@@ -1,6 +1,6 @@
-# VTT Quiz 2026 - Nhóm 2
+# VTT Quiz 2026 - Nhóm 1 & 2
 
-Web app trắc nghiệm tĩnh, lấy ngẫu nhiên **50 câu** từ ngân hàng 340 câu và giữ đúng tỷ lệ 14 mục tiêu được cung cấp.
+Web app trắc nghiệm tĩnh, lấy ngẫu nhiên **50 câu** từ ngân hàng 373 câu và giữ đúng tỷ lệ 15 mục tiêu.
 
 ## Chức năng
 
@@ -30,12 +30,13 @@ npm test
 
 ## Quy tắc lấy câu
 
-Cấu hình nằm trong `quiz-core.js` và khớp đúng ảnh yêu cầu: 14 mục tiêu, tổng 50 câu.
+Cấu hình nằm trong `quiz-core.js`: 15 mục tiêu, tổng 50 câu. Phần TTC chuyên nhóm được phân bổ cân bằng thành **2 câu Nhóm 1 + 2 câu Nhóm 2**; phần TTC chung vẫn lấy 4 câu.
 
 PDF không có cột "Tên mục tiêu". Quy tắc gắn nhóm đang dùng là:
 
 - `VTT1` → CSSPV, `VTT2` → KDSPV, `VTT3` → TTC, `VTT4` → DCTC.
-- Với bốn nhóm trên: mã `01-30` là `_n2`, mã từ `31` là `_chung`.
+- Với dữ liệu PDF ban đầu: mã `01-30` thuộc `_n2`, mã từ `31` thuộc `_chung` theo quy tắc trích xuất cũ.
+- Với dữ liệu Excel bổ sung của `VTT3`: cột `Câu hỏi Nhóm 1` → `TTC_n1`, `Câu hỏi Nhóm 2` → `TTC_n2`, `Câu hỏi chung` → `TTC_chung`.
 - `VTT5` → TDT chung, `VTT6` → QLRRHĐ chung, `VTT7` → PC chung.
 - `VTT8` → TTTM chung, `VTT9` → QLRRTD chung, `VTT10` → KN chung.
 

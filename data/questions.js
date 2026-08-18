@@ -1,4 +1,4 @@
-// Generated from the supplied PDF. Do not edit by hand.
+// Generated from the supplied PDF and reviewed Excel additions. Do not edit by hand.
 export const QUESTION_BANK = Object.freeze([
   {
     "id": "VTT1.01",
@@ -4759,5 +4759,467 @@ export const QUESTION_BANK = Object.freeze([
     "answer": "C",
     "difficulty": "Cơ bản",
     "reference": ""
+  },
+  {
+    "id": "VTT3.14",
+    "pool": "KT26.VTT.TTC_n2",
+    "question": "Căn cứ Chương trình HĐV VNĐ lãi suất cạnh tranh dành cho KH NBFI năm 2026, chương trình có bao nhiêu phân nhóm khách hàng",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "CV5375/VCB-CSSPV v/v chương trình HĐV VND lãi suất cạnh tranh dành cho KH NBFI"
+  },
+  {
+    "id": "VTT3.23",
+    "pool": "KT26.VTT.TTC_chung",
+    "question": "Theo quy định của NHNN, kỳ hạn tối đa của giao dịch kỳ hạn EUR/VND là bao nhiêu ngày?",
+    "options": {
+      "A": "365 ngày",
+      "B": "360 ngày",
+      "C": "Không có quy định kỳ hạn tối đa đối với cặp tiền tệ EUR/VND",
+      "D": "720 ngày"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Quy trình 839 (Điều 24)"
+  },
+  {
+    "id": "VTT3.43",
+    "pool": "KT26.VTT.TTC_n2",
+    "question": "Khi một hợp đồng Hoán đổi lãi suất 2 đồng tiền (CCS) có cấu trúc Fixed-for-Floating, kỳ hạn 6 tháng, điều này có nghĩa là dòng tiền lãi định kỳ sẽ được trao đổi như thế nào?",
+    "options": {
+      "A": "Cả hai bên đối tác có thể thỏa thuận cùng trả một lãi suất cố định bằng hai đồng tiền khác nhau",
+      "B": "Cả hai bên đối tác có thể thỏa thuận cùng trả một lãi suất thả nổi bằng hai đồng tiền khác nhau",
+      "C": "Lãi suất của hai đồng tiền tệ sẽ tự động chuyển từ cố định sang thả nổi sau 3 tháng hiệu lực hợp đồng",
+      "D": "Một bên trả lãi suất cố định bằng đồng tiền A, bên còn lại trả lãi suất thả nổi bằng đồng tiền B"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.44",
+    "pool": "KT26.VTT.TTC_n2",
+    "question": "Khi tính toán tỷ giá kỳ hạn, không cần quan tâm tới yếu tố nào?",
+    "options": {
+      "A": "Tỷ giá giao ngay (Spot rate) USD/VND trên thị trường liên ngân hàng",
+      "B": "Lãi suất phi rủi ro của VND hoặc USD kỳ hạn tương ứng",
+      "C": "Lạm phát so với cùng kỳ",
+      "D": "Chênh lệch lãi suất (Swap points) kỳ hạn tương ứng trên thị trường"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.48",
+    "pool": "KT26.VTT.TTC_n2",
+    "question": "Khách hàng ngành cà phê có nhu cầu giao dịch hợp đồng tương lai (Futures) để quản trị rủi ro biến động giá cả hàng hoá. Khách hàng cần đáp ứng các điều kiện sau, TRỪ điều kiện:",
+    "options": {
+      "A": "Khách hàng là tổ chức kinh tế được thành lập và hoạt động theo quy định của pháp luật Việt Nam, trừ tổ chức tín dụng",
+      "B": "KH có hợp đồng mua bán cà phê chứng minh cho mục đích phòng ngừa rủi ro của giao dịch phái sinh",
+      "C": "KH mở tài khoản ký quỹ tại Ngân hàng để thực hiện ký quỹ cho các giao dịch",
+      "D": "KH được Ngân hàng cấp Giới hạn tín dụng đối tác và giải ngân ký quỹ khi cần thiết"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.53",
+    "pool": "KT26.VTT.TTC_chung",
+    "question": "Đối tượng mua thứ cấp Chứng chỉ tiền gửi do Vietcombank phát hành bằng phương tiện điện tử",
+    "options": {
+      "A": "Khách hàng cá nhân là người Việt Nam cư trú",
+      "B": "Khách hàng cá nhân và tổ chức là người Việt Nam cư trú",
+      "C": "Khách hàng cá nhân",
+      "D": "Khách hàng cá nhân và tổ chức"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.59",
+    "pool": "KT26.VTT.TTC_n2",
+    "question": "Đối tượng mua sơ cấp Chứng chỉ tiền gửi do Vietcombank phát hành bằng phương tiện điện tử trên VCB Digibank",
+    "options": {
+      "A": "Khách hàng cá nhân là người Việt Nam cư trú",
+      "B": "Khách hàng cá nhân và tổ chức là người Việt Nam cư trú",
+      "C": "Khách hàng cá nhân",
+      "D": "Khách hàng cá nhân và tổ chức"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.60",
+    "pool": "KT26.VTT.TTC_chung",
+    "question": "Vietcombank hiện là ngân hàng duy nhất cung cấp dịch vụ ngân hàng thanh toán trái phiếu doanh nghiệp riêng lẻ. VCB cung cấp dịch vụ này từ năm nào",
+    "options": {
+      "A": "2022",
+      "B": "2023",
+      "C": "2024",
+      "D": "2025"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định cung ứng dịch vụ ngân hàng thanh toán cho giao dịch trái phiếu doanh nghiệp chào bán riêng lẻ tại VCB"
+  },
+  {
+    "id": "VTT3.63",
+    "pool": "KT26.VTT.TTC_chung",
+    "question": "Ngân hàng giám sát của quỹ phải đáp ứng các yêu cầu nào sau đây",
+    "options": {
+      "A": "Là công ty mẹ của công ty quản lý quỹ để thuận tiện giám sát",
+      "B": "Độc lập và không phải là người có liên quan của công ty quản lý quỹ",
+      "C": "Đồng thời là đại lý phân phối chính của quỹ",
+      "D": "Không có đáp án đúng"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Thông tư 98/2020/TT-BTC"
+  },
+  {
+    "id": "VTT3.68",
+    "pool": "KT26.VTT.TTC_n2",
+    "question": "Để sử dụng dịch vụ ngân hàng thanh toán trái phiếu riêng lẻ của VCB qua API, khách hàng cần thực hiện các bước nào sau đây:\nB1. Ký kết thỏa thuận bảo mật thông tin\nB2. Đăng ký sử dụng dịch vụ theo mẫu của VCB\nB3. Nhận tài liệu kỹ thuật & phát triển hệ thống\nB4. Kiểm thử theo kịch bản của khách hàng, không cần ký biên bản nghiệm thu\nB5. Kiểm thử theo kịch bản của VCB & Ký kết biên bản nghiệm thu với VCB\nB6. Mở tài khoản thanh toán tại VCB\nB7. Ký kết hợp đồng và ủy quyền với VCB",
+    "options": {
+      "A": "Tất cả các bước",
+      "B": "B2-B3-B4-B5-B6-B7",
+      "C": "B1-B2-B3-B5-B7",
+      "D": "B2-B3-B5-B6-B7"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định cung ứng dịch vụ ngân hàng thanh toán cho giao dịch trái phiếu doanh nghiệp chào bán riêng lẻ tại VCB"
+  },
+  {
+    "id": "VTT3.73",
+    "pool": "KT26.VTT.TTC_chung",
+    "question": "Người đứng đầu bộ phận chuyên trách thực hiện hoạt động đại lý bảo hiểm phải đáp ứng các điều kiện nào theo Nghị định 46/2023/NĐ-CP",
+    "options": {
+      "A": "Có tối thiểu 03 năm kinh nghiệm làm việc trong lĩnh vực tài chính, ngân hàng, bảo hiểm. Có bằng tốt nghiệp từ đại học trở lên về chuyên ngành bảo hiểm hoặc có bằng tốt nghiệp từ đại học trở lên về chuyên ngành khác và chứng chỉ bảo hiểm theo quy định của Bộ Tài chính",
+      "B": "Có tối thiểu 03 năm kinh nghiệm làm việc trong lĩnh vực bảo hiểm. Có bằng tốt nghiệp từ đại học trở lên về chuyên ngành bảo hiểm hoặc có bằng tốt nghiệp từ đại học trở lên về chuyên ngành khác và chứng chỉ bảo hiểm theo quy định của Bộ Tài chính",
+      "C": "Có tối thiểu 03 năm kinh nghiệm làm việc trong lĩnh vực tài chính, bảo hiểm. Có bằng tốt nghiệp từ đại học trở lên về chuyên ngành bảo hiểm hoặc có bằng tốt nghiệp từ đại học trở lên về chuyên ngành khác và chứng chỉ bảo hiểm theo quy định của Bộ Tài chính",
+      "D": "Có tối thiểu 03 năm kinh nghiệm làm việc trong lĩnh vực bảo hiểm. Có bằng tốt nghiệp từ đại học trở lên về chuyên ngành bảo hiểm và chứng chỉ bảo hiểm theo quy định của Bộ Tài chính"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 46/2023/NĐ-CP"
+  },
+  {
+    "id": "VTT3.01",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Căn cứ công văn số 4995/VCB-CSSPBB.CSKHBL.PTSP&GSGDV ngày 29/03/2024, khách hàng định chế phi tổ chức tín dụng được định danh mã customer type là bao nhiêu",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "400",
+      "D": "500"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "CV 4995 v/v quy định định danh khách hàng trong hệ thống VCB ngày 29/03/2024"
+  },
+  {
+    "id": "VTT3.02",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Căn cứ công văn số 4995/VCB-CSSPBB.CSKHBL.PTSP&GSGDV ngày 29/03/2024, nhóm khách hàng ĐCTC phi TCTD bao gồm những đối tượng nào sau đây",
+    "options": {
+      "A": "Công ty chứng khoán, công ty quản lý quỹ, công ty bảo hiểm và các chi nhánh, công ty con, văn phòng đại diện, đơn vị hạch toán phụ thuộc của các khách hàng này",
+      "B": "Tổ chức đầu tư gián tiếp (gồm  Quỹ đầu tư và công ty đầu tư chứng khoán) và Cơ quan quản lý ngành và Tổ chức vận hành thị trường chứng khoán (UBCK NN, VSD, VNX, HNX, HOSE)",
+      "C": "Công ty chứng khoán, công ty quản lý quỹ, công ty bảo hiểm và các chi nhánh, công ty con, văn phòng đại diện, đơn vị hạch toán phụ thuộc của các khách hàng này.\n- Tổ chức đầu tư gián tiếp (gồm  Quỹ đầu tư và công ty đầu tư chứng khoán) và Cơ quan quản lý ngành và Tổ chức vận hành thị trường chứng khoán (UBCK NN, VSD, VNX, HNX, HOSE)\n- Các trường hợp khác được BLĐ phê duyệt",
+      "D": "Công ty chứng khoán"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "CV 4995 v/v quy định định danh khách hàng trong hệ thống VCB ngày 29/03/2024"
+  },
+  {
+    "id": "VTT3.31",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Khách hàng được thực hiện giao dịch kỳ hạn USDVND tối đa là bao nhiêu ngày kể từ ngày giao dịch đầu tiên",
+    "options": {
+      "A": "180 ngày",
+      "B": "Không giới hạn ngày",
+      "C": "365 ngày",
+      "D": "360 ngày"
+    },
+    "answer": "C",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.32",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Khách hàng mua ngoại tệ kỳ hạn để thanh toán nước ngoài cần cung cấp chứng từ chứng minh mục đích và thông tin thanh toán khi nào?",
+    "options": {
+      "A": "Khách hàng cần cung cấp đầy đủ chứng từ tại ngày đến hạn của giao dịch kỳ hạn",
+      "B": "Khách hàng cung cấp chứng từ tại ngày chốt giao dịch kỳ hạn",
+      "C": "Không cần cung cấp",
+      "D": "Khách hàng có thể cung cấp chứng từ tại bất kể ngày nào trước ngày đáo hạn của giao dịch kỳ hạn"
+    },
+    "answer": "B",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.33",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Giao dịch mua bán ngoại tệ giao ngay được thanh toán trong bao nhiêu ngày kể từ ngày giao dịch",
+    "options": {
+      "A": "Chỉ được thực hiện tại ngày giao dịch",
+      "B": "Được thanh toán tối đa 1 ngày làm việc kể từ ngày giao dịch",
+      "C": "Được thanh toán tối đa 2 ngày làm việc kể từ ngày giao dịch",
+      "D": "Được thanh toán tối đa 3 ngày làm việc kể từ ngày giao dịch"
+    },
+    "answer": "C",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.34",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Việc xác định thời hạn của hợp đồng mua ngoại tệ kỳ hạn (Forward) phải tuân thủ điều kiện nào sau đây",
+    "options": {
+      "A": "Phải tương ứng với thời hạn thực tế ghi trên bộ chứng từ chứng minh mục đích sử dụng",
+      "B": "Khách hàng được quyền chọn tự do bất kỳ khoảng thời gian nào",
+      "C": "Bắt buộc phải chốt theo kỳ hạn chuẩn như 1 tháng/3 tháng/6 tháng",
+      "D": "Phải có thời hạn tối thiểu 1 tháng trở lên"
+    },
+    "answer": "A",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.35",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Thời hạn thực hiện giao dịch phái sinh lãi suất cho khoản vay",
+    "options": {
+      "A": "Bằng thời hạn còn hiệu lực của khoản vay gốc",
+      "B": "Tối đa thời hạn còn hiệu lực của khoản vay gốc",
+      "C": "Không có thời hạn",
+      "D": "Tối đa 365 ngày"
+    },
+    "answer": "B",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.36",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "VCB có thể thực hiện giao dịch phái sinh lãi suất cho khoản vay tại ngân hàng B như thế nào",
+    "options": {
+      "A": "Không thể thực hiện cho khoản vay tại ngân hàng khác",
+      "B": "Có thể thực hiện, khách hàng cần cung cấp đầy đủ chứng từ chứng minh khoản vay tại Ngân hàng B và giá trị, thời hạn giao dịch phái sinh lãi suất không vượt quá giá trị, thời hạn khoản vay gốc",
+      "C": "Có thể thực hiện, nhưng khách hàng bắt buộc phải có văn bản đồng ý của ngân hàng B cho phép VCB thực hiện giao dịch phái sinh lãi suất",
+      "D": "Có thể thực hiện, nhưng cần có sự cho phép của NHNN"
+    },
+    "answer": "B",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.37",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Các thông tin cần thiết cho giao dịch phái sinh lãi suất",
+    "options": {
+      "A": "Giá trị khoản vốn danh nghĩa, loại giao dịch",
+      "B": "Giá trị khoản vốn danh nghĩa, loại giao dịch, đồng tiền, kỳ hạn, lãi suất",
+      "C": "Khoản vốn danh nghĩa, đồng tiền, lãi suất",
+      "D": "Khoản vốn danh nghĩa, đồng tiền, kỳ hạn"
+    },
+    "answer": "B",
+    "difficulty": "",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.45",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Giao dịch PSGCHH giữa VCB và KH có thể thực hiện theo phương thức nào",
+    "options": {
+      "A": "Đặt lệnh qua điện thoại có chức năng ghi âm",
+      "B": "Đặt lệnh qua email/eikon messenger",
+      "C": "Đặt lệnh trên hệ thống VCB cung cấp",
+      "D": "Tất cả các đáp án trên"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.46",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "VCB đóng vai trò gì khi cung ứng sản phẩm phái sinh giá cả hàng hoá đến Khách hàng",
+    "options": {
+      "A": "Người môi giới (broker)",
+      "B": "Người mua (Buyer)",
+      "C": "Người bán (Seller)",
+      "D": "Trung gian thanh toán"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.47",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Các loại sản phẩm phái sinh hàng hóa VCB có thể cung ứng",
+    "options": {
+      "A": "Hợp đồng tương lai giá cả hàng hóa",
+      "B": "Hợp đồng hoán đổi giá cả hàng hóa",
+      "C": "Hợp đồng quyền chọn giá cả hàng hóa",
+      "D": "Tất cả các đáp án trên"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.54",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Chứng chỉ tiền gửi là gì?",
+    "options": {
+      "A": "Một loại cổ phiếu do ngân hàng phát hành để tăng vốn chủ sở hữu",
+      "B": "Chứng chỉ tiền gửi là một hình thức tiền gửi dưới dạng giấy tờ có giá và là bằng chứng xác nhận nghĩa vụ trả nợ của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đối với người mua chứng chỉ tiền gửi trong một thời hạn nhất định, điều kiện trả lãi và các điều kiện khác",
+      "C": "Hợp đồng gửi tiền tiết kiệm thông thường tại quầy giao dịch của Ngân hàng",
+      "D": "Chứng chỉ quỹ đầu tư do công ty quản lý quỹ phát hành"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.55",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Chứng chỉ tiền gửi có được rút trước hạn không?",
+    "options": {
+      "A": "Luôn được rút trước hạn như tiết kiệm thông thường, lãi suất tính theo kỳ hạn thực gửi",
+      "B": "Tùy thuộc vào quy định tại Bản Điều Khoản Điều Kiện của từng đợt phát hành Chứng chỉ tiền gửi",
+      "C": "Không được rút trước hạn",
+      "D": "Bắt buộc phải rút trước hạn nếu lãi suất thị trường tăng cao hơn lãi suất CCTG"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.56",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Mệnh giá trái phiếu",
+    "options": {
+      "A": "100.000 đồng Việt Nam hoặc bội số của 100.000 đồng Việt Nam",
+      "B": "1.000.000 đồng Việt Nam hoặc bội số của 1.000.000 đồng Việt Nam",
+      "C": "10.000.000 đồng Việt Nam hoặc bội số của 10.000.000 đồng Việt Nam",
+      "D": "100.000.000 đồng Việt Nam hoặc bội số của 100.000.000 đồng Việt Nam"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT3.64",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Nội dung nào sau đây thuộc nghĩa vụ của ngân hàng giám sát",
+    "options": {
+      "A": "Quyết định danh mục đầu tư của quỹ",
+      "B": "Giám sát để bảo đảm công ty quản lý quỹ tuân thủ Luật chứng khoán, Điều lệ quỹ và giám sát việc xác định giá trị tài sản ròng của quỹ",
+      "C": "Ấn định mức phí phát hành chứng chỉ quỹ",
+      "D": "Phê duyệt phương án phân phối lợi nhuận của quỹ"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định cung ứng dịch vụ lưu ký trên kênh dịch vụ ngân hàng điện tử"
+  },
+  {
+    "id": "VTT3.65",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Khi ngân hàng lưu ký nhận lưu ký tài sản ủy thác, nguyên tắc bắt buộc là",
+    "options": {
+      "A": "Gộp chung tài sản các khách hàng để tối ưu chi phí",
+      "B": "Lưu ký toàn bộ tài sản ủy thác, tách biệt tới từng khách hàng và tách biệt với tài sản của công ty quản lý quỹ",
+      "C": "Chuyển về tài khoản của ngân hàng giám sát",
+      "D": "Tất cả các đáp án"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định cung ứng dịch vụ lưu ký tại VCB"
+  },
+  {
+    "id": "VTT3.66",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Nguyên tắc giao dịch trái phiếu doanh nghiệp riêng lẻ là gì",
+    "options": {
+      "A": "Thanh toán bù trừ cuối ngày giao dịch",
+      "B": "Tương tự thanh toán giao dịch cổ phiếu trên thị trường cơ sở",
+      "C": "Chuyển trái phiếu trước, thanh toán sau",
+      "D": "Giao trái phiếu đồng thời với chuyển tiền (thanh toán tức thì theo từng giao dịch)"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "30/2023/TT-BTC"
+  },
+  {
+    "id": "VTT3.67",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Thành viên lưu ký có thể mở tối đa bao nhiêu tài khoản tại VCB để phục vụ thanh toán trái phiếu riêng lẻ",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định cung ứng dịch vụ ngân hàng thanh toán cho giao dịch trái phiếu doanh nghiệp chào bán riêng lẻ tại VCB"
+  },
+  {
+    "id": "VTT3.77",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Các giao dịch bán bảo hiểm được áp dụng cơ chế phê duyệt mức hoa hồng đại lý ngoại lệ áp dụng cho các giao dịch đại lý bảo hiểm phi nhân thọ tại VCB:",
+    "options": {
+      "A": "Giá trị giao dịch tối thiểu từ 200 triệu đồng trở lên, trình TSC xem xét, phê duyệt hoa hồng đại lý ngoại lệ trước khi thực hiện đàm phán và ký hợp đồng bảo hiểm với khách hàng và công ty bảo hiểm.",
+      "B": "Giá trị giao dịch tối thiểu từ 300 triệu đồng trở lên, trình TSC xem xét, phê duyệt hoa hồng đại lý ngoại lệ trước khi thực hiện đàm phán và ký hợp đồng bảo hiểm với khách hàng và công ty bảo hiểm.",
+      "C": "Giá trị giao dịch tối thiểu từ 2.000 triệu đồng trở lên được phép trình TSC xem xét, phê duyệt hoa hồng đại lý ngoại lệ sau khi thực hiện đàm phán và ký hợp đồng bảo hiểm với khách hàng và công ty bảo hiểm.",
+      "D": "A và C đúng"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Công văn 10451/VCB-KDSPDVV"
+  },
+  {
+    "id": "VTT3.79",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Thẩm quyền phê duyệt các giao dịch có mức miễn giảm hoa hồng đại lý bảo hiểm phi nhân thọ 90% theo Công văn số 10451/VCB-KDSPDVV ngày 10/05/2024 là cấp nào",
+    "options": {
+      "A": "Ban KDSPV",
+      "B": "Giám đốc Khối/Phó Giám đốc Khối PT Vốn & Thị Trường",
+      "C": "Tổng Giám đốc",
+      "D": "Chi nhánh"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Công văn 10451/VCB-KDSPDVV"
+  },
+  {
+    "id": "VTT3.80",
+    "pool": "KT26.VTT.TTC_n1",
+    "question": "Thẩm quyền phê duyệt các giao dịch có mức miễn giảm hoa hồng đại lý bảo hiểm phi nhân thọ 10% theo Công văn số 10451/VCB-KDSPDVV ngày 10/05/2024 là cấp nào",
+    "options": {
+      "A": "Ban KDSPV",
+      "B": "Giám đốc Khối/Phó Giám đốc Khối PT Vốn & Thị Trường",
+      "C": "Tổng Giám đốc",
+      "D": "Chi nhánh"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Công văn 10451/VCB-KDSPDVV"
   }
 ]);
