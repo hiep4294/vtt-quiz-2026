@@ -1,4 +1,5 @@
-// Generated from the supplied PDF and reviewed Excel additions. Do not edit by hand.
+// Generated from the supplied PDF and curated Excel question banks.
+// Rebuild with the extraction/import tools; do not edit entries by hand.
 export const QUESTION_BANK = Object.freeze([
   {
     "id": "VTT1.01",
@@ -347,7 +348,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Dịch vụ bảo quản, quản lý chứng khoán và thực hiện các quyền liên quan cho khách hàng"
     },
     "answer": "D",
-    "difficulty": "cơ bản",
+    "difficulty": "Cơ bản",
     "reference": "Thông tư 98,99,136"
   },
   {
@@ -4953,7 +4954,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "360 ngày"
     },
     "answer": "C",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -4967,7 +4968,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Khách hàng có thể cung cấp chứng từ tại bất kể ngày nào trước ngày đáo hạn của giao dịch kỳ hạn"
     },
     "answer": "B",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -4981,7 +4982,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Được thanh toán tối đa 3 ngày làm việc kể từ ngày giao dịch"
     },
     "answer": "C",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -4995,7 +4996,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Phải có thời hạn tối thiểu 1 tháng trở lên"
     },
     "answer": "A",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -5009,7 +5010,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Tối đa 365 ngày"
     },
     "answer": "B",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -5023,7 +5024,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Có thể thực hiện, nhưng cần có sự cho phép của NHNN"
     },
     "answer": "B",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -5037,7 +5038,7 @@ export const QUESTION_BANK = Object.freeze([
       "D": "Khoản vốn danh nghĩa, đồng tiền, kỳ hạn"
     },
     "answer": "B",
-    "difficulty": "",
+    "difficulty": "Cơ bản",
     "reference": ""
   },
   {
@@ -5221,5 +5222,1503 @@ export const QUESTION_BANK = Object.freeze([
     "answer": "A",
     "difficulty": "Cơ bản",
     "reference": "Công văn 10451/VCB-KDSPDVV"
+  },
+  {
+    "id": "VTT12.05",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Trường hợp đối tác không hoàn trả khoản vay đúng hạn, lãi suất phạt quá hạn tối đa VCB có thể áp dụng là bao nhiêu (%)?",
+    "options": {
+      "A": "150% lãi suất cho vay đang áp dụng đối với khoản vay",
+      "B": "90% lãi suất cho vay đang áp dụng đối với khoản vay",
+      "C": "50% lãi suất cho vay đang áp dụng đối với khoản vay",
+      "D": "100% lãi suất cho vay đang áp dụng đối với khoản vay"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 794/QyDD-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT12.06",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Tại thời điểm thực hiện giao dịch đi vay, các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài không được có các khoản nợ quá hạn từ bao nhiêu ngày trở lên tại tổ chức tín dụng, chi nhánh ngân hàng nước ngoài khác.",
+    "options": {
+      "A": "5 ngày",
+      "B": "10 ngày",
+      "C": "30 ngày",
+      "D": "90 ngày"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 794/QyDD-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT12.11",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Trong giao dịch mua/bán có kỳ hạn GTCG trên thị trường liên ngân hàng, tỷ lệ haircut là tỷ lệ chênh lệch giữa:",
+    "options": {
+      "A": "Giá mua của GTCG (số tiền thanh toán lần 1) và giá của GTCG",
+      "B": "Giá của GTCG (số tiền thanh toán lần 1) và Giá của GTCG (số tiền thanh toán lần 2)",
+      "C": "Giá mua của GTCG (số tiền thanh toán lần 2) và giá của GTCG",
+      "D": "Giá mua của GTCG (số tiền thanh toán lần 2) và giá của GTCG"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 794/QyDD-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT12.12",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Tỷ lệ hair cut tối thiểu áp dụng trong chiều giao dịch nào:",
+    "options": {
+      "A": "VCB bán có kỳ hạn GTCG",
+      "B": "VCB mua có kỳ hạn GTCG",
+      "C": "VCB mua/bán có kỳ hạn GTCG",
+      "D": "Không áp dụng trong chiều giao dịch nào"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 794/QyDD-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT12.16",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Hạn mức duyệt giao dịch áp dụng đối với các giao dịch tiền gửi, tiền vay ngắn hạn và mua/bán có kỳ hạn giấy tờ có giá bao gồm:",
+    "options": {
+      "A": "Các giao dịch lần đầu",
+      "B": "Giao dịch gia hạn",
+      "C": "Giao dịch tất toán trước hạn, điều chỉnh/sửa đổi hợp đồng",
+      "D": "Cả 3 đáp án"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 467/QĐ-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT12.17",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Mức cấp tín dụng tối đa trên giá trị TSBĐ là GTCG do TCTD phát hành được Chính phủ bão lãnh là bao nhiêu",
+    "options": {
+      "A": "0.8",
+      "B": "0.85",
+      "C": "0.9",
+      "D": "0.95"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Văn bản hợp nhất QĐ 109 VCB"
+  },
+  {
+    "id": "VTT12.18",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Trường hợp loại tiền của tiền mặt, tiền gửi, Tiền gửi tiết kiệm, GTCG, vận đơn khác loại tiền của khoản tín dụng thì mức cấp tín dụng tối đa trên giá trị TSBĐ giảm bao nhiêu % so với mức cấp tín dụng tối đa.",
+    "options": {
+      "A": "0",
+      "B": "0.05",
+      "C": "0.1",
+      "D": "0.15"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Văn bản hợp nhất QĐ 109 VCB"
+  },
+  {
+    "id": "VTT12.21",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Hạn mức duyệt giao dịch gửi, cho vay trên thị trường liên ngân hàng trong nước của Lãnh đạo Ban TTTC là",
+    "options": {
+      "A": "1,000 tỷ quy VNĐ",
+      "B": "1,500 tỷ quy VNĐ",
+      "C": "2,000 tỷ quy VNĐ",
+      "D": "2,500 tỷ quy VNĐ"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 467/QĐ-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT12.24",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Một nhà đầu tư gửi một khoản tiền với lãi suất danh nghĩa cố định là 5%/năm trong một năm dương lịch. Quy ước tính ngày nào sau đây sẽ tạo ra số tiền lãi thực tế cao nhất cho nhà đầu tư",
+    "options": {
+      "A": "30/360",
+      "B": "Actual/365",
+      "C": "Actual/360",
+      "D": "Actual/Actual"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Math"
+  },
+  {
+    "id": "VTT12.27",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Kỳ hạn của giao dịch kỳ hạn, giao dịch kỳ hạn trong giao dịch hoán đổi giữa Đồng Việt Nam với ngoại tệ tối đa là bao nhiêu ngày?",
+    "options": {
+      "A": "Tùy vào thanh khoản của thị trường tại từng thời điểm",
+      "B": "Tối đa 3 năm kể từ ngày giao dịch",
+      "C": "Tối đa 2 năm kể từ ngày giao dịch",
+      "D": "Tối đa 365 ngày kể từ ngày giao dịch"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 02/2021/TT-NHNN ngày 31/3/2021 hướng dẫn giao dịch ngoại tệ trên thị trường ngoại tệ của các TCTD được phép hoạt động ngoại hối"
+  },
+  {
+    "id": "VTT12.31",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Theo thông lệ quốc tế, với đồng tiền nào dưới đây thì đồng USD là đồng định giá trong cặp tỷ giá hối đoái tương ứng",
+    "options": {
+      "A": "AUD, EUR, GBP, JPY",
+      "B": "AUD, CAD, EUR, GBP",
+      "C": "AUD, CAD, CHF, EUR, GBP",
+      "D": "AUD, EUR, GBP, NZD"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.32",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Giao dịch hoán đổi ngoại tệ là sự kết hợp của:",
+    "options": {
+      "A": "Spot và Spot",
+      "B": "Spot và Forward",
+      "C": "Forward và Forward",
+      "D": "Tất cả đều đúng"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.33",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Tổng trạng thái ngoại tệ cuối ngày của các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài không được vượt quá bao nhiêu % vốn tự có của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài.",
+    "options": {
+      "A": "±18%",
+      "B": "±20%",
+      "C": "±2%",
+      "D": "±5%"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 07/2012/TT-NHNN ngày 20/3/2012 quy định về trạng thái ngoại tệ của các TCTD, Chi nhánh ngân hàng nước ngoài"
+  },
+  {
+    "id": "VTT12.34",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Trạng thái ngoại tệ của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài được tính theo đơn vị nào",
+    "options": {
+      "A": "Quy USD",
+      "B": "Quy VND",
+      "C": "Theo nguyên tệ",
+      "D": "Cả 3 đáp án trên"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 07/2012/TT-NHNN ngày 20/3/2012 quy định về trạng thái ngoại tệ của các TCTD, Chi nhánh ngân hàng nước ngoài"
+  },
+  {
+    "id": "VTT12.35",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Chênh lệch giữa hai mức lãi suất nào được sử dụng để xác định trần tỷ giá kỳ hạn theo quy định của NHNN?",
+    "options": {
+      "A": "Lãi suất tái cấp vốn do Ngân hàng Nhà nước công bố và Lãi suất LIBOR kỳ hạn tương ứng",
+      "B": "Lãi suất tái cấp vốn do Ngân hàng Nhà nước công bố và Lãi suất mục tiêu Đô la Mỹ của Cục Dự trữ Liên bang Mỹ",
+      "C": "Lãi suất tái chiết khấu do Ngân hàng Nhà nước công bố và Lãi suất SOFR kỳ hạn tương ứng",
+      "D": "Lãi suất tái chiết khấu do Ngân hàng Nhà nước công bố và Lãi suất mục tiêu Đô la Mỹ của Cục Dự trữ Liên bang Mỹ"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Thông tư số 02/2021/TT-NHNN ngày 31/3/2021 hướng dẫn giao dịch ngoại tệ trên thị trường ngoại tệ của các TCTD được phép hoạt động ngoại hối"
+  },
+  {
+    "id": "VTT12.36",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Nhận định nào sau đây không đúng",
+    "options": {
+      "A": "Tổ chức tín dụng được phép thực hiện giao dịch với khách hàng theo tỷ giá niêm yết, trừ trường hợp hai bên có thỏa thuận khác về tỷ giá áp dụng tại thời điểm giao dịch.",
+      "B": "Tổ chức tín dụng được phép không được thu phí giao dịch đối với giao dịch ngoại tệ.",
+      "C": "Ngày giao dịch là ngày hai bên thực hiện chuyển giao số lượng đồng tiền mua, bán theo thỏa thuận giao dịch đã xác lập.",
+      "D": "Tổ chức tín dụng được phép được thực hiện giao dịch giao ngay, giao dịch kỳ hạn, giao dịch hoán đổi, giao dịch quyền chọn với tổ chức tín dụng được phép khác."
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 02/2021/TT-NHNN ngày 31/3/2021 hướng dẫn giao dịch ngoại tệ trên thị trường ngoại tệ của các TCTD được phép hoạt động ngoại hối"
+  },
+  {
+    "id": "VTT12.37",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Tổ chức tín dụng được phép hoạt động ngoại hối được thực hiện giao dịch kỳ hạn với đối tượng nào dưới đây?",
+    "options": {
+      "A": "TCTD được phép khác",
+      "B": "Tổ chức kinh tế",
+      "C": "Người cư trú là cá nhân",
+      "D": "Cả 3 đáp án trên"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 02/2021/TT-NHNN ngày 31/3/2021 hướng dẫn giao dịch ngoại tệ trên thị trường ngoại tệ của các TCTD được phép hoạt động ngoại hối"
+  },
+  {
+    "id": "VTT12.38",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Trạng thái ngoại tệ của ngân hàng phản ánh:",
+    "options": {
+      "A": "Chênh lệch tài sản Có và tài sản Nợ ngoại tệ",
+      "B": "Khối lượng ngoại tệ thực có trên tài khoản Nostro",
+      "C": "Net doanh số giao dịch mua/bán ngoại tệ",
+      "D": "Mức độ thanh khoản của ngoại tệ"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.39",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Trạng thái nguyên tệ của ngoại tệ được tính từ cấu phần nào?",
+    "options": {
+      "A": "Số dư các tài khoản",
+      "B": "Trạng thái nguyên tệ của các giao dịch viên",
+      "C": "Tổng Tài sản Có và tổng Tài sản Nợ bằng ngoại tệ, không bao gồm các cam kết ngoại bảng tương ứng.",
+      "D": "Cả 3 đáp án trên"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Thông tư 07/2012/TT-NHNN ngày 20/3/2012 quy định về trạng thái ngoại tệ của các TCTD, Chi nhánh ngân hàng nước ngoài"
+  },
+  {
+    "id": "VTT12.45",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Doanh nghiệp A hiện tại có nguồn thu USD khá lớn, tuy nhiên trong thời gian tới phải thanh toán ngoại tệ cho đối tác nước ngoài. Lãi suất tiết kiệm USD kém hấp dẫn và khả năng tỷ giá USD/VND biến động mạnh. Doanh nghiệp A nên sử dụng các sản phẩm nào sau đây để tối ưu nhu cầu của mình?",
+    "options": {
+      "A": "Mua kỳ hạn USD/VND và tiền gửi USD",
+      "B": "Swap Sell/Buy USD/VND và tiền gửi VND",
+      "C": "Bán giao ngay USD/VND và mua kỳ hạn USD/VND",
+      "D": "Mua giao ngay USD/VND khi cần thanh toán"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.47",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Doanh nghiệp XNK đồng thời nhận được tiền hàng xuất khẩu là 80.000 EUR và phải thanh toán tiền hàng nhập khẩu là 150.000 AUD. Tỷ giá giao ngay AUD/EUR = 0,6135 – 0,6140 Số tiền AUD còn phải mua tiếp trên thị trường để thanh toán tiền hàng là",
+    "options": {
+      "A": "19707",
+      "B": "100920",
+      "C": "19600",
+      "D": "100880"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.56",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Theo quy định tại thông tư 40/2016/TT-NHNN ngày 30/12/2016, hành động nào sau đây của khách hàng là không được phép:",
+    "options": {
+      "A": "Bán hợp đồng tương lai giá cả hàng hoá",
+      "B": "Mua hợp đồng tiêu chuẩn về quyền chọn mua giá cả hàng hoá",
+      "C": "Mua hợp đồng tương lai giá cả hàng hoá",
+      "D": "Bán hợp đồng tiêu chuẩn về quyền chọn mua giá cả hàng hoá"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 40/2016/TT-NHNN"
+  },
+  {
+    "id": "VTT12.57",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Theo quy định tại thông tư 40/2016/TT-NHNN ngày 30/12/2016, hàng hoá nào sau đây được phép giao dịch hợp đồng phái sinh:",
+    "options": {
+      "A": "Vàng",
+      "B": "Thời tiết Hà Nội",
+      "C": "Thép",
+      "D": "Chỉ số Bloomberg Commodity"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 40/2016/TT-NHNN"
+  },
+  {
+    "id": "VTT12.58",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Theo quy định tại thông tư 40/2016/TT-NHNN ngày 30/12/2016, đối tượng nào sau đây được phép giao dịch phái sinh giá cả hàng hoá với VCB:",
+    "options": {
+      "A": "Khách hàng tổ chức kinh tế (trừ TCTD)",
+      "B": "Ngân hàng thương mại trong nước",
+      "C": "Khách hàng cá nhân",
+      "D": "Tất cả các phương án"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 40/2016/TT-NHNN"
+  },
+  {
+    "id": "VTT12.59",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Khách hàng sử dụng sản phẩm Hoán đổi Lãi suất Một đồng tiền USD, trong đó khách hàng trả lãi suất cố định = 2%, nhận lãi suất thả nổi với lãi suất tham chiếu SOFR ON compounded. Phát biểu nào sau đây là đúng?",
+    "options": {
+      "A": "Khách hàng không biết đến kỳ thanh toán lãi tiếp theo, Khách hàng sẽ được nhận bao nhiêu tiền.",
+      "B": "Khách hàng biết trước đến kỳ thanh toán lãi tiếp theo, Khách hàng sẽ được nhận bao nhiêu tiền.",
+      "C": "Khách hàng luôn được nhận thêm phần chênh lệch lãi suất thả nổi và cố định từ ngân hàng",
+      "D": "Khách hàng luôn phải trả thêm phần chênh lệch lãi suất thả nổi và cố định cho ngân hàng"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.60",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Trong giao dịch hoán đổi lãi suất một đồng tiền, hai bên có trao đổi giá trị khoản vốn danh nghĩa cho nhau không?",
+    "options": {
+      "A": "Có",
+      "B": "Không",
+      "C": "Chỉ trao đổi đầu kỳ",
+      "D": "Chỉ trao đổi cuối kỳ"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 01/2015/TT-NHNN"
+  },
+  {
+    "id": "VTT12.61",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Mệnh đề nào sau đây là đúng khi nói về hợp đồng hoán đổi lãi suất hai đồng tiền (CCS)?",
+    "options": {
+      "A": "Các bên trao đổi các khoản thanh toán gốc và lãi suất tại thời điểm bắt đầu hoán đổi bằng cách sử dụng lãi suất kỳ hạn tương ứng với kỳ hạn của giao dịch hoán đổi và các khoản thanh toán định kỳ được bù trừ cho nhau",
+      "B": "Các bên trao đổi các khoản thanh toán lãi suất, với các khoản thanh toán bằng các loại tiền tệ giống nhau và các dòng tiền định kỳ được bù trừ cho nhau",
+      "C": "CCS thường có dạng hoán đổi lãi suất cố định với lãi suất thả nổi và các dòng tiền định kỳ được bù trừ cho nhau",
+      "D": "Các bên trao đổi các khoản thanh toán gốc (nếu có) và lãi bằng hai đồng tiền khác nhau tính trên giá trị khoản vốn danh nghĩa sử dụng tỷ giá giao ngay và các dòng tiền định kỳ không được bù trừ cho nhau"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 01/2015/TT-NHNN"
+  },
+  {
+    "id": "VTT12.62",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Điều kiện sử dụng sản phẩm phái sinh lãi suất của Khách hàng là Pháp nhân không phải TCTD, Chi nhánh Ngân hàng nước ngoài?",
+    "options": {
+      "A": "Mục đích sử dụng sản phẩm phái sinh lãi suất là phòng ngừa, hạn chế rủi ro lãi suất đối với giao dịch gốc của pháp nhân đó. Có giao dịch gốc còn hiệu lực thực hiện, phù hợp với quy định của pháp luật",
+      "B": "Có khả năng tài chính để thực hiện nghĩa vụ thanh toán phát sinh khi thực hiện hợp đồng phái sinh lãi suất",
+      "C": "Thực hiện các biện pháp bảo đảm nghĩa vụ theo thỏa thuận với ngân hàng thương mại cung ứng sản phẩm phái sinh lãi suất",
+      "D": "Tất cả các đáp án trên"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 01/2015/TT-NHNN"
+  },
+  {
+    "id": "VTT12.64",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Lựa chọn nào sau đây có thể là giao dịch gốc trong giao dịch phái sinh lãi suất:",
+    "options": {
+      "A": "Hợp đồng gửi tiền, nhận tiền gửi",
+      "B": "Hợp đồng vay vốn",
+      "C": "Hợp đồng phái sinh lãi suất",
+      "D": "A&B"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư số 01/2015/TT-NHNN"
+  },
+  {
+    "id": "VTT12.67",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Nhà đầu tư B có các giao dịch sau: - Mua 3 lot hợp đồng tương lai cà phê Robusta với giá 3500 USD/tấn - Bán 4 lot hợp đồng tương lai cà phê Robusta với giá 3520 USD/tấn Biết 1 lot cà phê Robusta gồm 10 tấn. Tính lãi lỗ thực tế (USD) ghi nhận cho các giao dịch trên?",
+    "options": {
+      "A": "60",
+      "B": "80",
+      "C": "800",
+      "D": "600"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.71",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Khách hàng có khoản vay USD khối lượng 20 triệu USD. Kỳ hạn gốc 5 năm, kỳ hạn còn lại 3 năm, lãi thanh toán hàng quý, gốc thanh toán toàn bộ vào cuối kỳ. Doanh thu của khách hàng chủ yếu bằng VND. Lo ngại tỷ giá USD/VND biến động mạnh, khách hàng muốn phòng ngừa rủi ro của khoản vay. Bộ phận khách hàng cần hướng dẫn Khách hàng thực hiện sản phẩm:",
+    "options": {
+      "A": "CCS kỳ hạn 5 năm có trao đổi gốc đầu kỳ và cuối kỳ",
+      "B": "CCS kỳ hạn 5 năm chỉ trao đổi gốc cuối kỳ",
+      "C": "CCS kỳ hạn 3 năm có trao đổi gốc đầu kỳ và cuối kỳ",
+      "D": "CCS kỳ hạn 3 năm chỉ trao đổi gốc cuối kỳ"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.73",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Cơ quan nào có thẩm quyền cấp Giấy chứng nhận đăng ký chào bán chứng khoán ra công chúng tại Việt Nam?",
+    "options": {
+      "A": "A. Bộ Tài chính.",
+      "B": "B. Ủy ban Chứng khoán Nhà nước.",
+      "C": "C. Sở Giao dịch Chứng khoán Việt Nam.",
+      "D": "D. Ngân hàng Nhà nước."
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Điều 25 Luật Chứng khoán 2019"
+  },
+  {
+    "id": "VTT12.74",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Theo Luật Chứng khoán 2019, thời hạn Ủy ban Chứng khoán Nhà nước xem xét cấp Giấy chứng nhận đăng ký chào bán ra công chúng kể từ khi nhận đủ hồ sơ hợp lệ là bao lâu?",
+    "options": {
+      "A": "15 ngày.",
+      "B": "30 ngày.",
+      "C": "45 ngày",
+      "D": "60 ngày"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Điều 25 Luật Chứng khoán 2019"
+  },
+  {
+    "id": "VTT12.75",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Khi thực hiện mua lại trái phiếu trước hạn bắt buộc, doanh nghiệp phát hành phải thông báo cho trái chủ biết trước thời hạn tối thiểu là bao lâu",
+    "options": {
+      "A": "24 giờ",
+      "B": "15 ngày hoặc theo thời hạn quy định cụ thể tại phương án phát hành được thông qua",
+      "C": "60 ngày",
+      "D": "Không cần thông báo trước"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Điều 7 Nghị định 153/2020/NĐ-CP sửa đổi bởi Nghị định 65/2022/NĐ-CP"
+  },
+  {
+    "id": "VTT12.76",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Trường hợp nào sau đây bắt buộc một doanh nghiệp phát hành trái phiếu riêng lẻ phải nộp kèm kết quả xếp hạng tín nhiệm",
+    "options": {
+      "A": "Tổng giá trị trái phiếu phát hành theo mệnh giá trong mỗi 12 tháng lớn hơn 500 tỷ đồng và lớn hơn 100% vốn chủ sở hữu; hoặc tổng dư nợ trái phiếu lớn hơn 100% vốn chủ sở hữu",
+      "B": "Doanh nghiệp có vốn điều lệ dưới 50 tỷ đồng",
+      "C": "Khi phát hành cho dưới 10 nhà đầu tư tổ chức",
+      "D": "Doanh nghiệp kinh doanh trong lĩnh vực khai khoáng"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Điều 1 Nghị định 65/2022/NĐ-CP"
+  },
+  {
+    "id": "VTT12.78",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Theo quy định, tổ chức nào có nghĩa vụ công bố thông tin về tình hình giao dịch trái phiếu doanh nghiệp riêng lẻ định kỳ trên cổng thông tin chuyên trang trái phiếu?",
+    "options": {
+      "A": "A. Sở Giao dịch Chứng khoán Hà Nội.",
+      "B": "B. Ủy ban Chứng khoán Nhà nước.",
+      "C": "C. Sở Giao dịch Chứng khoán Việt Nam.",
+      "D": "D. Ngân hàng Nhà nước."
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Điều 32 Nghị định 153/2020/NĐ-CP"
+  },
+  {
+    "id": "VTT12.80",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Theo quy trình về thực hiện giao dịch mua, bán GTCG của VCB, thỏa thuận giao dịch có thể được thực hiện bằng các phương tiện giao dịch, bao gồm",
+    "options": {
+      "A": "Hợp đồng",
+      "B": "Hệ thống giao dịch TPCP",
+      "C": "Bloomberg",
+      "D": "Tất cả đáp án trên"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "quy trình 652 về thực hiện giao dịch mua, bán GTCG của VCB"
+  },
+  {
+    "id": "VTT12.81",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Tỷ lệ an toàn là tỷ lệ tối đa được phép Đầu tư gián tiếp ta nước ngoài, được tính bằng bao nhiêu tỷ lệ phần trăm (%) của quy mô vốn tự có của VCB theo quy định của NHNN từng thời kỳ",
+    "options": {
+      "A": "0.08",
+      "B": "0.07",
+      "C": "0.1",
+      "D": "0.05"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Quyết định 1368/QĐ-HĐQT-PTDP&GSGDV ban hành quy định về hoạt động tự doanh đầu tư gián tiếp ra nước ngoài của VCB"
+  },
+  {
+    "id": "VTT12.82",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Tên tiếng anh của Khối Vốn và Thị trường VCB là gì",
+    "options": {
+      "A": "Global Markets Division",
+      "B": "Treasury and Markets Division",
+      "C": "Global Market Division",
+      "D": "Capital Market Division"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT12.83",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Thẩm quyền xác nhận đăng ký khoản vay nước ngoài với thỏa thuận trên 10 triệu USD",
+    "options": {
+      "A": "Cục trưởng Cục Quản lý Ngoại hối",
+      "B": "Thống đốc NHNN",
+      "C": "Giám đốc NHNN Khu vực nơi bên cho vay đặt Trụ sở chính",
+      "D": "Hội đồng Quản trị"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Thông tư 17/2026/TT-NHNN v/v sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực quản lý ngoại hối liên quan đến phân cấp, đơn giản hóa thủ tục hành chính."
+  },
+  {
+    "id": "VTT12.84",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Theo Luật Chứng khoán 2019, \"Trái phiếu\" là loại chứng khoán xác nhận quyền và lợi ích hợp pháp của người sở hữu đối với phần vốn nào của tổ chức phát hành?",
+    "options": {
+      "A": "Vốn điều lệ.",
+      "B": "Vốn nợ.",
+      "C": "Vốn thặng dư.",
+      "D": "Vốn tài trợ không hoàn lại."
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Luật Chứng khoán 2019"
+  },
+  {
+    "id": "VTT12.86",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Đối tượng nào sau đây được phép tham gia mua và giao dịch trái phiếu doanh nghiệp không chuyển đổi riêng lẻ của công ty cổ phần chưa niêm yết?",
+    "options": {
+      "A": "Tất cả mọi công dân có tài khoản chứng khoán.",
+      "B": "Nhà đầu tư chứng khoán chuyên nghiệp.",
+      "C": "Chỉ các tổ chức tín dụng cấp 1.",
+      "D": "Người lao động làm việc trên 5 năm tại doanh nghiệp."
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 65/2022/NĐ-CP"
+  },
+  {
+    "id": "VTT12.87",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Doanh nghiệp phát hành trái phiếu riêng lẻ phải gửi báo cáo thông tin kết quả đợt chào bán đến Sở Giao dịch Chứng khoán trong thời hạn chậm nhất là bao lâu?",
+    "options": {
+      "A": "03 ngày làm việc.",
+      "B": "05 ngày làm việc.",
+      "C": "10 ngày.",
+      "D": "15 ngày làm việc."
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 153/2020/NĐ-CP."
+  },
+  {
+    "id": "VTT12.88",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Mệnh giá của trái phiếu doanh nghiệp chào bán tại thị trường trong nước được quy định cố định là bao nhiêu",
+    "options": {
+      "A": "100.000 đồng hoặc bội số của 100.000 đồng.",
+      "B": "10.000.000 đồng.",
+      "C": "100.000.000 đồng hoặc bội số của 100.000.000 đồng.",
+      "D": "Doanh nghiệp tự do lựa chọn từ 1.000 đồng trở lên."
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 65/2022/NĐ-CP."
+  },
+  {
+    "id": "VTT12.89",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Mọi thông tin liên quan đến giao dịch trái phiếu doanh nghiệp riêng lẻ hiện nay bắt buộc phải đăng ký giao dịch tập trung tại đơn vị nào?",
+    "options": {
+      "A": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam.",
+      "B": "Sở Giao dịch Chứng khoán.",
+      "C": "Ngân hàng thương mại lưu ký.",
+      "D": "Ủy ban Chứng khoán Nhà nước."
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 65/2022/NĐ-CP."
+  },
+  {
+    "id": "VTT12.90",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Để chứng minh tư cách nhà đầu tư chuyên nghiệp là cá nhân qua danh mục chứng khoán, danh mục phải đạt giá trị tối thiểu 2 tỷ đồng được tính dựa trên tiêu chí nào?",
+    "options": {
+      "A": "Tính tại ngày giao dịch mua trái phiếu.",
+      "B": "Tính bình quân giá trị thị trường hàng ngày trong thời gian tối thiểu 180 ngày liền kề trước ngày xác định tư cách, không bao gồm tiền vay margin.",
+      "C": "Tính bình quân trong vòng 30 ngày và chấp nhận tính cả dư nợ vay margin.",
+      "D": "Tính tại ngày chốt sổ kế toán quý gần nhất."
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Nghị định 65/2022/NĐ-CP"
+  },
+  {
+    "id": "VTT12.91",
+    "pool": "KT26.VTT.KDSPV_n1",
+    "question": "Giới hạn thời gian tối đa để doanh nghiệp đàm phán kéo dài kỳ hạn của một trái phiếu đã phát hành theo Nghị định 08/2023/NĐ-CP là bao lâu so với phương án gốc?",
+    "options": {
+      "A": "Không quá 12 tháng.",
+      "B": "Không quá 02 năm (24 tháng).",
+      "C": "Không quá 03 năm.",
+      "D": "Được tự do kéo dài đến 10 năm không hạn chế."
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Nghị định 08/2023/NĐ-CP"
+  },
+  {
+    "id": "VTT12.92",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Trường hợp công ty đại chúng thực hiện phát hành cổ phiếu thưởng (phát hành cổ phiếu từ nguồn vốn chủ sở hữu), nguồn vốn nào sau đây KHÔNG được phép sử dụng?",
+    "options": {
+      "A": "Thặng dư vốn cổ phần.",
+      "B": "Quỹ đầu tư phát triển.",
+      "C": "Lợi nhuận sau thuế chưa phân phối.",
+      "D": "Vốn vay ngân hàng thương mại ngắn hạn."
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": "Nghị định 155/2020/NĐ-CP."
+  },
+  {
+    "id": "VTT11.02",
+    "pool": "KT26.VTT.CSSPV_chung",
+    "question": "Theo yêu cầu của Công ty A, VCB phát hành bảo lãnh đối ứng (BLĐƯ) cho Ngân hàng X (Bên nhận BLĐƯ). VCB đề nghị Ngân hàng X phát hành Bảo lãnh trực tiếp cho Công ty B (Bên nhận Bảo lãnh). Ngày hết hạn của Bảo lãnh trực tiếp là ngày 15/10/2026. Theo Quy định 586/QĐ-HĐQ-QLRRTD v/v Quy định về Bảo lãnh đối với khách hàng, VCB cần lưu ý điều gì đối với thời hạn của Bảo lãnh đối ứng?",
+    "options": {
+      "A": "Thời hạn hiệu lực của BLĐƯ có thể dài hơn thời hạn hiệu lực của Bảo lãnh trực tiếp mà VCB đề nghị Ngân hàng X phát hành, phù hợp với thỏa thuận giữa VCB và Ngân hàng X nhưng tối đa không quá 30 ngày niên lịch.",
+      "B": "Thời hạn hiệu lực của BLĐƯ có thể dài hơn thời hạn hiệu lực của Bảo lãnh trực tiếp mà VCB đề nghị Ngân hàng X phát hành, phù hợp với thỏa thuận giữa VCB và Ngân hàng X.",
+      "C": "Thời hạn hiệu lực của BLĐƯ có thể dài hơn thời hạn hiệu lực của Bảo lãnh trực tiếp mà VCB đề nghị Ngân hàng X phát hành, phù hợp với thỏa thuận giữa VCB và Ngân hàng X nhưng tối thiểu phải hơn 15 ngày niên lịch.",
+      "D": "Không có đáp án nào đúng."
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "646/QĐ-VCB-QLRRTD ngày 01/04/2026 v/v Hướng dẫn thực hiện Quy định Bảo lãnh đối với KH của VCB"
+  },
+  {
+    "id": "VTT11.03",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "- Công ty A (Bên mua) tại Việt Nam và Công ty B (Bên bán) tại Mỹ có ký kết hợp đồng xuất nhập khẩu hàng hóa, phương thức thanh toán là Thư tín dụng. - Công ty A dự định sẽ đề nghị Ngân hàng X phát hành Thư tín dụng cho Người hưởng là Công ty B. Tuy nhiên, Công ty B không tin tưởng uy tín của Ngân hàng X. Công ty B đề nghị Thư tín dụng phải được VCB xác nhận. Theo Quy định 1146/QĐ-HĐQT-QLRRTD ngày 1/07/2024 v/v Quy định về nghiệp vụ Thư tín dụng đối với KH, trong trường hợp VCB xác nhận Thư tín dụng, Khách hàng của VCB trong giao dịch là bên nào?",
+    "options": {
+      "A": "Công ty A (Bên mua - Bên đề nghị phát hành Thư tín dụng)",
+      "B": "Công ty B (Bên bán - Bên thụ hưởng Thư tín dụng)",
+      "C": "Ngân hàng X (Ngân hàng phát hành Thư tín dụng)",
+      "D": "A hoặc B hoặc C, tùy thuộc vào bên đưa ra đề nghị với VCB"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định 1146/QĐ-HĐQT-QLRRTD ngày 1/07/2024 v/v Quy định về nghiệp vụ Thư tín dụng đối với KH"
+  },
+  {
+    "id": "VTT11.04",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo Quy định 688/QyĐ-VCB-CSSPV ngày 20/04/2026 v/v Sản phẩm cho Vay, đi vay tái tài trợ giao dịch Tài trợ thương mại, Bên đi vay / Bên cho vay tương ứng trong 2 loại giao dịch sau là đối tượng nào? - Cho vay tái tài trợ giao dịch tài trợ thương mại/Cho vay trade loan là sản phẩm VCB cho Bên đi vay vay để tái tài trợ cho các giao dịch tài trợ thương mại của Bên đi vay. - Đi vay tái tài trợ giao dịch tài trợ thương mại/Đi vay trade loan là sản phẩm VCB vay vốn từ Bên cho vay để tái tài trợ cho các giao dịch tài trợ thương mại của VCB.",
+    "options": {
+      "A": "Bên đi vay là Tổ chức tín dụng trong nước (ngân hàng thương mại, ngân hàng hợp tác xã, chi nhánh ngân hàng nước ngoài tại Việt Nam) Bên cho vay là Tổ chức tín dụng trong nước hoặc tổ chức tín dụng nước ngoài",
+      "B": "Bên đi vay / Bên cho vay là Tổ chức tín dụng trong nước hoặc tổ chức tín dụng nước ngoài, tùy theo nhu cầu giao dịch của các bên",
+      "C": "Bên đi vay là Tổ chức tín dụng trong nước hoặc tổ chức tín dụng nước ngoài Bên cho vay là Tổ chức tín dụng trong nước (ngân hàng thương mại, ngân hàng hợp tác xã, chi nhánh ngân hàng nước ngoài tại Việt Nam)",
+      "D": "Bên đi vay / Bên cho vay là Tổ chức tín dụng trong nước"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định 688/QyĐ-VCB-CSSPV ngày 20/04/2026 v/v Sản phẩm cho Vay, đi vay tái tài trợ giao dịch Tài trợ thương mại"
+  },
+  {
+    "id": "VTT11.05",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo Quy định 1485/QyĐ-VCB-PTSP&GSGDV v/v Quy định sản phẩm nhận ủy thác phát hành thư tín dụng, rủi ro của các bên liên quan được quy định như thế nào:",
+    "options": {
+      "A": "VCB chịu mọi rủi ro từ Bên đề nghị",
+      "B": "Bên ủy thác chịu mọi rủi ro từ Bên đề nghị",
+      "C": "Bên ủy thác chịu mọi rủi ro từ Bên đề nghị. VCB chịu mọi rủi ro từ Bên ủy thác.",
+      "D": "VCB chịu mọi rủi ro từ Bên ủy thác và Bên đề nghị"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định 1485/QyĐ-VCB-PTSP&GSGDV v/v Quy định sản phẩm nhận ủy thác phát hành thư tín dụng"
+  },
+  {
+    "id": "VTT11.06",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo Quy định 1483/QĐ-VCB-PTSP&GSGDV v/v QĐSP Hoàn trả thư tín dụng trơn và Hoàn trả thư tín dụng, nghiệp vụ Hoàn trả thư tín dụng là nghiệp vụ gì",
+    "options": {
+      "A": "Là nghiệp vụ trong đó Ngân hàng phát hành chỉ định VCB làm Ngân hàng hoàn trả, khi nhận được Yêu cầu đòi tiền từ Ngân hàng đòi tiền, VCB đề nghị Ngân hàng Phát hành chuyển tiền cho VCB để VCB thanh toán cho Ngân hàng đòi tiền.",
+      "B": "Là nghiệp vụ trong đó VCB thỏa thuận/chỉ định với Ngân hàng phát hành về việc thanh toán cho bên thụ hưởng theo đề nghị của Ngân hàng phát hành, nguồn tiền thanh toán có thể bằng nguồn tiền của VCB hoặc trích nợ tài khoản thanh toán của Ngân hàng phát hành mở tại VCB, tùy thuộc vào thỏa thuận giữa VCB và Ngân hàng phát hành tại thời điểm thực hiện thanh toán.",
+      "C": "Là nghiệp vụ cấp tín dụng, trong đó VCB thỏa thuận với Ngân hàng phát hành về việc thanh toán bằng nguồn tiền của mình cho bên thụ hưởng theo đề nghị của Ngân hàng phát hành.",
+      "D": "Là nghiệp vụ trong đó Ngân hàng phát hành chỉ định VCB làm Ngân hàng hoàn trả, VCB được chủ động trích tiền (ghi Nợ) tài khoản thanh toán của Ngân hàng phát hành mở tại VCB để thanh toán cho Ngân hàng đòi tiền"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định 1483/QĐ-VCB-PTSP&GSGDV v/v QĐSP Hoàn trả thư tín dụng trơn và Hoàn trả thư tín dụng"
+  },
+  {
+    "id": "VTT11.07",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo Quy định 1030/QyĐ-VCB-PTSP&GSGDV.TTTM v/v QĐSP mua hẳn miễn truy đòi bộ chứng từ theo thư tín dụng từ ngân hàng mua bộ chứng từ, Mua hẳn miễn truy đòi Bộ chứng từ theo Thư tín dụng từ Ngân hàng mua bộ chứng từ là sản phẩm trong đó",
+    "options": {
+      "A": "VCB mua bộ chứng từ và nhận chuyển giao bộ chứng từ chưa được thanh toán từ Khách hàng",
+      "B": "VCB sẽ nhận số tiền được thanh toán từ Ngân hàng phát hành hoặc Ngân hàng xác nhận và không có quyền truy đòi KH trong trường hợp VCB không nhận được đầy đủ số tiền được thanh toán từ Ngân hàng phát hành hoặc Ngân hàng xác nhận (trừ một số trường hợp truy đòi theo quy định của sản phẩm)",
+      "C": "VCB sẽ nhận số tiền được thanh toán từ Ngân hàng phát hành hoặc Ngân hàng xác nhận và có quyền truy đòi KH trong trường hợp VCB không nhận được đầy đủ số tiền được thanh toán từ Ngân hàng phát hành hoặc Ngân hàng xác nhận trong mọi trường hợp",
+      "D": "A và B"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định 1030/QyĐ-VCB-PTSP&GSGDV.TTTM v/v QĐSP mua hẳn miễn truy đòi bộ chứng từ theo thư tín dụng từ ngân hàng mua bộ chứng từ"
+  },
+  {
+    "id": "VTT11.08",
+    "pool": "KT26.VTT.CSSPV_chung",
+    "question": "Theo quy định của NHNN, trừ trường hợp tổ chức tín dụng cho vay đối với công ty cho thuê tài chính là công ty con của tổ chức tín dụng đó, thời hạn cho vay giữa các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài tại Việt Nam",
+    "options": {
+      "A": "Tối đa dưới 01 năm",
+      "B": "Tối đa 03 tháng",
+      "C": "Tối đa đến 01 năm",
+      "D": "Theo thoả thuận giữa các bên"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Điều 10 VBNH số 38/VBNH-NHNN"
+  },
+  {
+    "id": "VTT11.10",
+    "pool": "KT26.VTT.CSSPV_chung",
+    "question": "Theo quy định của NHNN, lãi suất áp dụng đối với số tiền lãi vay chậm trả giữa các tổ chức tín dụng, chi nhánh ngân hàng nước ngoài tại Việt Nam",
+    "options": {
+      "A": "Tối thiểu bằng lãi suất cho vay trong hạn.",
+      "B": "Theo thỏa thuận trong hợp đồng cho vay nhưng không vượt quá 10%/năm.",
+      "C": "Không vượt quá 150% lãi suất cho vay trong hạn.",
+      "D": "Không giới hạn, thực hiện theo thoả thuận trong hợp đồng cho vay."
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Điều 11 VBNH số 38/VBNH-NHNN"
+  },
+  {
+    "id": "VTT11.12",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo Quy định hiện hành của VCB về thực hiện giao dịch tiền gửi, tiền vay ngắn hạn và mua/bán có kỳ hạn GTCG với NHNN, TCTD, CNNHNNg, loại giấy tờ có giá nào sau đây không được VCB chấp thuận trong giao dịch VCB mua có kỳ hạn giấy tờ có giá với ngân hàng thương mại khác",
+    "options": {
+      "A": "Trái phiếu được niêm yết do Ngân hàng TMCP Đầu tư và phát triển Việt Nam phát hành",
+      "B": "Trái phiếu được niêm yết do Ngân hàng TMCP Kỹ thương Việt Nam phát hành",
+      "C": "Trái phiếu được Chính phủ bảo lãnh do Ngân hàng Chính sách xã hội phát hành.",
+      "D": "Tất cả các phương án trên"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Điều 47, khoản 1 Quy định số 794"
+  },
+  {
+    "id": "VTT11.13",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Giao dịch VCB cho vay Techcombank 300 tỷ đồng, kỳ hạn 03 tháng, không có tài sản bảo đảm thì trên hệ thống Front Arena sẽ nhập vào portfolio nào sau đây",
+    "options": {
+      "A": "BB_MM Lending_clean",
+      "B": "BB_MM PLC_clean",
+      "C": "BB_MM Borrowing_clean",
+      "D": "BB_MM Lending_COL"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.15",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Giao dịch VCB gửi tiền tại Ngân hàng China Trust chi nhánh tại Sing, khi nhập giao dịch trên chương trình Front Arena thì nhập cơ sở tính lãi là",
+    "options": {
+      "A": "30/360",
+      "B": "Act/365",
+      "C": "Act/360",
+      "D": "Act/364"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.16",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Giao dịch VCB mua có kỳ hạn trái phiếu chính phủ Việt Nam với ngân hàng thương mại khác, khi nhập giao dịch trên chương trình Front Arena thì nhập cơ sở tính lãi là",
+    "options": {
+      "A": "Act/365",
+      "B": "Act/360",
+      "C": "Act/ActISMA",
+      "D": "Act/ISDA"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.17",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Giao dịch VCB gửi tiền Techcombank 300 tỷ đồng, kỳ hạn 03 tháng, có tài sản bảo đảm thì trên hệ thống Front Arena sẽ nhập vào portfolio nào sau đây",
+    "options": {
+      "A": "BB_MM Lending_COL",
+      "B": "BB_MM DEPO_COL",
+      "C": "BB_MM Borrowing_clean",
+      "D": "BB_MM PLC_COL"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.18",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Ngày 15/06/2026, VCB thực hiện gửi tiền tại VPbank 2000 tỷ đồng, kỳ hạn 01 tháng thì Cấp thẩm quyền phê duyệt giao dịch là",
+    "options": {
+      "A": "Giao dịch viên Ban TTTC",
+      "B": "Lãnh đạo Ban TTTC",
+      "C": "Giám đốc vốn",
+      "D": "Tổng Giám đốc"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.19",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo quy định hiện hành, Giao dịch VCB cho vay VCB Leasing có thể có thời hạn",
+    "options": {
+      "A": "Tối đa đến 01 năm",
+      "B": "Đến 01 năm",
+      "C": "Trên 01 năm",
+      "D": "B và C"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.20",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Ngày 18/06/2026, VCB thực hiện mua có kỳ hạn trái phiếu Chính phủ từ MBbank kỳ hạn 02 tuần, gồm 03 giao dịch với tổng giá trị thanh toán lần 1 của các giao dịch này là 1.341 tỷ đồng thì Cấp thẩm quyền phê duyệt các giao dịch này là",
+    "options": {
+      "A": "Giao dịch viên Ban TTTC",
+      "B": "Lãnh đạo Ban TTTC",
+      "C": "Giám đốc vốn",
+      "D": "Tổng Giám đốc"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.21",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Ngày 19/06/2026, VPbank có nhu cầu nhận tiền gửi VND có kỳ hạn từ VCB và khoản tiền gửi này sẽ được bảo đảm toàn bộ bằng khoản tiền gửi USD có kỳ hạn của VPbank tại VCB, số tiền tối đa VCB có thể gửi tại VPBank trong giao dịch này là?",
+    "options": {
+      "A": "100% giá trị tài sản bảo đảm",
+      "B": "90% giá trị tài sản bảo đảm",
+      "C": "95% giá trị tài sản bảo đảm",
+      "D": "Theo thoả thuận giữa các bên"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.23",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Khách hàng sử dụng sản phẩm Hoán đổi lãi suất một đồng tiền USD, trong đó khách hàng trả lãi suất cố định = 2%, nhận lãi suất thả nổi theo SOFR. SOFR được tính theo phương pháp lãi ghép cuối kỳ. Ở đầu kỳ tính lãi tiếp theo, phát biểu nào sau đây là ĐÚNG:",
+    "options": {
+      "A": "Khách hàng không biết trước khách hàng sẽ được nhận/phải trả bao nhiêu tiền.",
+      "B": "Khách hàng sẽ biết trước khách hàng sẽ được nhận/phải trả bao nhiêu tiền.",
+      "C": "Khách hàng luôn được nhận phần chênh lệch lãi suất thả nổi và cố định cho ngân hàng",
+      "D": "Khách hàng luôn phải trả thêm phần chênh lệch lãi suất thả nổi và cố định cho ngân hàng"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "280/QT-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT11.24",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "VCB thực hiện giao dịch hoán đổi lãi suất hai đồng tiền với đối tác, tại đó đối tác nhận từ VCB lãi suất VND cố định = 5%, trả cho VCB lãi suất USD thả nổi theo SOFR. Lãi suất SOFR của kỳ tính lãi này = 2%. Đến ngày thanh toán lãi, đối tác và VCB sẽ thanh toán như thế nào?",
+    "options": {
+      "A": "Đối tác chuyển cho VCB lãi suất 2% USD và nhận từ VCB lãi suất 5% VND",
+      "B": "Đối tác nhận từ VCB chênh lệch lãi suất 3%",
+      "C": "Đối tác chuyển cho VCB lãi suất 2% USD và KHÔNG nhận được lãi suất VND từ VCB",
+      "D": "Đối tác chuyển cho VCB chênh lệch lãi suất 3%"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "280/QT-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT11.25",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Khách hàng thực hiện giao dịch USD IRS với VCB, khối lượng 20 triệu USD, tại đó Khách hàng trả lãi suất cố định 4%/năm, nhận lãi suất thả nổi 3M SOFR. Kỳ tính lãi bắt đầu từ ngày 30/3 đến 30/6, với lãi suất 3M SOFR được xác định = 3,9%/năm. Đáp áp nào là đúng:",
+    "options": {
+      "A": "VCB trả cho Khách hàng khoản tiền tính trên chênh lệch lãi suất = 0,1%/năm vào 30/6",
+      "B": "Khách hàng trả cho VCB khoản tiền tính trên chênh lệch lãi suất = 0,1%/năm vào 30/6",
+      "C": "VCB trả cho Khách hàng khoản tiền tính trên chênh lệch lãi suất = 0,1%/năm vào 30/3",
+      "D": "Khách hàng trả cho VCB khoản tiền tính trên chênh lệch lãi suất = 0,1%/năm vào 30/3"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "280/QT-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT11.29",
+    "pool": "KT26.VTT.CSSPV_chung",
+    "question": "Cá nhân là người cư trú được phép thực hiện loại hình giao dịch ngoại tệ nào sau đây",
+    "options": {
+      "A": "Giao ngay và mua kỳ hạn",
+      "B": "Giao ngay",
+      "C": "Giao ngay và bán kỳ hạn",
+      "D": "Giao ngay, kỳ hạn (cả 2 chiều)"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "TT 02/2021/TT-NHNN về hướng dẫn giao dịch ngoại tệ trên thị trường ngoại tệ của các TCTD được phép hoạt đông ngoại hối và QT 839/QT-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT11.30",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Spread giao dịch của cặp tỷ giá USD/VND thường duy trì ở mức 10-15 điểm. Ngày hôm nay spread tăng lên 50 điểm. Có thể nói gì về thanh khoản của đồng USD trên thị trường ngày hôm nay",
+    "options": {
+      "A": "Thanh khoản thị trường kém",
+      "B": "Thanh khoản thị trường tốt",
+      "C": "Thanh khoản thị trường rất tốt",
+      "D": "B và C"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.32",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Chi nhánh được chủ động quản lý trạng thái những giao dịch nào",
+    "options": {
+      "A": "Giao dịch có khối lượng dưới 50.000 USD quy đổi",
+      "B": "Giao dịch today và có khối lượng dưới 50.000 USD quy đổi",
+      "C": "Giao dịch non-today và có khối lượng dưới 50.000 USD quy đổi",
+      "D": "Giao dịch today và không giới hạn khối lượng"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "QĐ 2418/QĐ-VCB-PTSP&GSGDV chỉnh sửa QT 839"
+  },
+  {
+    "id": "VTT11.36",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Trong 4 ngân hàng yết giá USD/VND sau, Khách hàng nên chọn mua và bán USD ở ngân hàng nào: 1) 26.030/26.050 2) 26.035/26.055 3) 26.037/26.045 4) 26.050/26.060",
+    "options": {
+      "A": "Mua USD tại ngân hàng 3 và bán USD tại ngân hàng 4",
+      "B": "Mua USD tại ngân hàng 4 và bán USD tại ngân hàng 3",
+      "C": "Mua USD tại ngân hàng 4 và bán USD tại ngân hàng 1",
+      "D": "Mua USD tại ngân hàng 1 và bán USD tại ngân hàng 4"
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.37",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Trong 4 ngân hàng yết giá USD/JPY sau, Khách hàng nên chọn mua và bán JPY ở ngân hàng nào: 1) 158,86/88 2) 158,81/83 3) 158,90/92 4) 158,93/95",
+    "options": {
+      "A": "Bán JPY tại ngân hàng số 1 và mua JPY tại ngân hàng số 2",
+      "B": "Bán JPY tại ngân hàng số 2 và mua JPY tại ngân hàng số 4",
+      "C": "Bán JPY tại ngân hàng số 3 và mua JPY tại ngân hàng số 4",
+      "D": "Bán JPY tại ngân hàng số 1 và mua JPY tại ngân hàng số 4"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.38",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Tỷ giá mua vào/bán ra giao ngay GBP/USD của VCB là 1,3256/58, nếu khách hàng bán 3.000.000 GBP để mua USD thì số USD khách hàng thu về là bao nhiêu?",
+    "options": {
+      "A": "3.976.800 USD",
+      "B": "3.977.400 USD",
+      "C": "2.263.126 USD",
+      "D": "2.262.784 USD"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.39",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Ngày 05/01/2026, VCB yết tỷ giá USD/JPY là 158,90-158,95. USD/VND là 26.035-26.045 Ngày 12/01/2026, VCB yết tỷ giá USD/JPY là 158,55-158,60. USD/VND là 26.040-26.050 Tính lãi/lỗ của khách hàng nếu khách hàng dùng 1 tỷ VND mua JPY của VCB vào ngày 05/01/2026 và bán lại đúng số JPY đó cho VCB vào ngày 12/01/2026",
+    "options": {
+      "A": "Lãi 3.100.464",
+      "B": "Lãi 2.468.788 VND",
+      "C": "Lãi 2.330.404 VND",
+      "D": "Lãi 1.699.213 VND"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT11.42",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Vai trò của ngân hàng thương mại trong việc cung ứng giao dịch phái sinh giá cả hàng hóa cho khách hàng là gì?",
+    "options": {
+      "A": "Nhà đầu tư",
+      "B": "Nhà đầu cơ",
+      "C": "Nhà môi giới",
+      "D": "Bên cấp vốn"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 40/2016/TT-NHNN"
+  },
+  {
+    "id": "VTT11.43",
+    "pool": "KT26.VTT.CSSPV_n2",
+    "question": "Thời hạn hiệu lực của trạng thái mở tối đa cấp cho một khách hàng kể từ ngày phê duyệt là:",
+    "options": {
+      "A": "tối đa 6 tháng",
+      "B": "tối đa 12 tháng",
+      "C": "tối đa 13 tháng",
+      "D": "không có thời hạn hiệu lực"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Quyết định 2023/QĐ-VCB-PTSP&GSGDV"
+  },
+  {
+    "id": "VTT11.47",
+    "pool": "KT26.VTT.CSSPV_chung",
+    "question": "Tổ chức phát hành được phát hành trái phiếu riêng lẻ cho nhà đầu tư chứng khoán chuyên nghiệp là cá nhân trong trường hợp nào sau đây:",
+    "options": {
+      "A": "Trái phiếu doanh nghiệp riêng lẻ (i) có xếp hạng tín nhiệm; hoặc (ii) có tài sản bảo đảm đối với trái phiếu đó; hoặc (iii) có bảo lãnh thanh toán của tổ chức tín dụng đối với trái phiếu đó",
+      "B": "Trái phiếu doanh nghiệp riêng lẻ (i) có xếp hạng tín nhiệm; hoặc (ii) có tài sản bảo đảm và bảo lãnh thanh toán của tổ chức tín dụng đối với trái phiếu đó; hoặc (iii) trái phiếu được Chính phủ bảo lãnh",
+      "C": "Trái phiếu doanh nghiệp riêng lẻ (i) có xếp hạng tín nhiệm và có tài sản bảo đảm đối với trái phiếu đó; hoặc (ii) có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng đối với trái phiếu đó",
+      "D": "Trái phiếu doanh nghiệp riêng lẻ (i) có xếp hạng tín nhiệm và có tài sản bảo đảm đối với trái phiếu đó; hoặc (ii) có xếp hạng tín nhiệm và có bảo lãnh thanh toán của tổ chức tín dụng đối với trái phiếu đó; hoặc (iii) trái phiếu được Chính phủ bảo lãnh"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Luật chứng khoán"
+  },
+  {
+    "id": "VTT11.50",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Tổ chức phát hành không phải là tổ chức tín dụng được phép thực hiện hoạt động nào liên quan đến phát hành trái phiếu sau đây:",
+    "options": {
+      "A": "Trái phiếu không chuyển đổi không kèm chứng quyền thành nhiều đợt cho nhà đầu tư chứng khoán chuyên nghiệp là cá nhân, tổ chức; không có tài sản bảo đảm; không có xếp hạng tín nhiệm trái phiếu",
+      "B": "Trái phiếu không chuyển đổi không kèm chứng quyền cho nhà đầu tư chứng khoán chuyên nghiệp là tổ chức; không có tài sản bảo đảm; không có xếp hạng tín nhiệm trái phiếu",
+      "C": "Trái phiếu không chuyển đổi không kèm chứng quyền thành nhiều đợt cho nhà đầu tư chứng khoán chuyên nghiệp là tổ chức; không có tài sản bảo đảm; không có xếp hạng tín nhiệm trái phiếu",
+      "D": "Trái phiếu không chuyển đổi không kèm chứng quyền cho nhà đầu tư chứng khoán chuyên nghiệp là cá nhân, tổ chức; có xếp hạng tín nhiệm trái phiếu; không có bảo lãnh thanh toán của tổ chức tín dụng; không có tài sản bảo đảm"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 200"
+  },
+  {
+    "id": "VTT11.52",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Trong phạm vi phân cấp thẩm quyền hiện nay, Giám đốc vốn (thành viên Ban điều hành và/hoặc Phó Giám đốc Khối được giao phụ trách Khối Vốn và Thị trường) được phê duyệt giao dịch tự doanh đầu tư gián tiếp ra nước ngoài đối với các loại công cụ nào sau đây:",
+    "options": {
+      "A": "Trái phiếu, tín phiếu, kỳ phiếu của Chính phủ và của các tổ chức phát hành là tổ chức tín dụng có hệ số xếp hạng tín nhiệm từ mức Ba3 theo đánh giá xếp hạng của Moody’s Investors Service trở lên, hoặc từ mức BB theo đánh giá xếp hạng của Standard & Poor’s trở lên, hoặc từ mức BB theo đánh giá xếp hạng của Fitch’s Ratings trở lên và giao dịch có giá trị dưới 20% vốn điều lệ của VCB",
+      "B": "Trái phiếu, tín phiếu, kỳ phiếu của Chính phủ và của các tổ chức phát hành là tổ chức tín dụng được xếp hạng tín nhiệm bởi Moody’s Investors Service, Standard & Poor’s hoặc Fitch’s Ratings và giao dịch có giá trị dưới 10% vốn điều lệ của VCB",
+      "C": "Trái phiếu, tín phiếu, kỳ phiếu của Chính phủ và của các tổ chức phát hành là tổ chức tín dụng có hệ số xếp hạng tín nhiệm từ mức Ba3 theo đánh giá xếp hạng của Moody’s Investors Service trở lên, hoặc từ mức BB theo đánh giá xếp hạng của Standard & Poor’s trở lên, hoặc từ mức BB theo đánh giá xếp hạng của Fitch’s Ratings trở lên và giao dịch có giá trị dưới 10% vốn điều lệ của VCB",
+      "D": "Trái phiếu, tín phiếu, kỳ phiếu của Chính phủ và của các tổ chức phát hành là tổ chức tín dụng được xếp hạng tín nhiệm bởi Moody’s Investors Service, Standard & Poor’s hoặc Fitch’s Ratings và giao dịch có giá trị dưới 20% vốn điều lệ của VCB"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Quy trình tự doanh đầu tư gián tiếp ra nước ngoài của VCB"
+  },
+  {
+    "id": "VTT11.53",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Hạn mức duyệt giao dịch của cấp BĐH hiện nay đối với các giao dịch mua bán giấy tờ có giá phát hành tại thị trường trong nước được xác định như sau:",
+    "options": {
+      "A": "Hạn mức duyệt giao dịch là mức tối đa mà cấp có thẩm quyền duyệt giao dịch của VCB được quyền ra quyết định phê duyệt đối với một giao dịch theo mệnh giá/theo giá trị thanh toán và không thực hiện bù trừ giữa giao dịch mua và giao dịch bán trong ngày giao dịch đối với một khách hàng. Trong mọi trường hợp, giá trị thanh toán của giao dịch đảm bảo không vượt quá 10% Vốn Điều lệ của VCB",
+      "B": "Hạn mức duyệt giao dịch là mức tối đa mà cấp có thẩm quyền duyệt giao dịch của VCB được quyền ra quyết định phê duyệt đối với một giao dịch/tổng các giao dịch theo mệnh giá và không thực hiện bù trừ giữa giao dịch mua và giao dịch bán trong ngày giao dịch đối với một khách hàng. Trong mọi trường hợp, giá trị thanh toán của giao dịch đảm bảo không vượt quá 10% Vốn Điều lệ của VCB",
+      "C": "Hạn mức duyệt giao dịch là mức tối đa mà cấp có thẩm quyền duyệt giao dịch của VCB được quyền ra quyết định phê duyệt đối với một giao dịch/tổng các giao dịch theo mệnh giá và không thực hiện bù trừ giữa giao dịch mua và giao dịch bán trong ngày giao dịch đối với một khách hàng.",
+      "D": "Hạn mức duyệt giao dịch là mức tối đa mà cấp có thẩm quyền duyệt giao dịch của VCB được quyền ra quyết định phê duyệt đối với một giao dịch theo mệnh giá/theo giá trị thanh toán và không thực hiện bù trừ giữa giao dịch mua và giao dịch bán trong ngày giao dịch đối với một khách hàng."
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Quy định về các hạn mức duyệt giao dịch mua, bán giấy tờ có giá của VCB"
+  },
+  {
+    "id": "VTT11.54",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Kỳ hạn còn lại 1 năm của TPCP, TPCPBL, TPCQĐP nằm trong khoảng?",
+    "options": {
+      "A": "Từ 365 ngày đến 547 ngày",
+      "B": "Từ 274 ngày đến 365 ngày",
+      "C": "Từ 274 ngày đến 364 ngày",
+      "D": "Từ 274 ngày đến 547 ngày"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định về các hạn mức duyệt giao dịch mua, bán giấy tờ có giá của VCB"
+  },
+  {
+    "id": "VTT11.55",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo quy định hiện hành, ngày phát hành trái phiếu là:",
+    "options": {
+      "A": "Ngày xác nhận nghĩa vụ nợ của doanh nghiệp phát hành đối với trái phiếu. Trái phiếu trong một đợt chào bán có cùng ngày phát hành",
+      "B": "Ngày xác nhận nghĩa vụ nợ của doanh nghiệp phát hành đối với trái phiếu. Trái phiếu trong một đợt chào bán có thể có nhiều ngày phát hành.",
+      "C": "Ngày kể từ khi bắt đầu đợt chào bán cho đến khi kết thúc đợt chào bán. Trái phiếu trong một đợt chào bán có cùng ngày phát hành.",
+      "D": "Ngày kể từ khi bắt đầu đợt chào bán cho đến khi kết thúc đợt chào bán. Trái phiếu trong một đợt chào bán có thể có nhiều ngày phát hành."
+    },
+    "answer": "A",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 200"
+  },
+  {
+    "id": "VTT11.56",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Để thực hiện chào bán trái phiếu riêng lẻ, tổ chức phát hành bắt buộc phải ký hợp đồng với các tổ chức nào sau đây:",
+    "options": {
+      "A": "Tổ chức tư vấn hồ sơ chào bán trái phiếu là công ty chứng khoán/công ty luật trong nước và công ty xếp hạng tín nhiệm",
+      "B": "Tổ chức tư vấn hồ sơ chào bán trái phiếu là công ty chứng khoán/công ty luật trong nước",
+      "C": "Tổ chức tư vấn hồ sơ chào bán trái phiếu là công ty chứng khoán",
+      "D": "Tổ chức tư vấn hồ sơ chào bán trái phiếu là công ty chứng khoán và công ty xếp hạng tín nhiệm"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 200"
+  },
+  {
+    "id": "VTT11.57",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Trái phiếu được phát hành riêng lẻ theo các phương thức sau:",
+    "options": {
+      "A": "Bảo lãnh phát hành, đại lý phát hành, bán trực tiếp cho nhà đầu tư",
+      "B": "Đấu thầu phát hành, bảo lãnh phát hành, bán trực tiếp cho nhà đầu tư",
+      "C": "Đấu thầu phát hành, bảo lãnh phát hành, đại lý phát hành",
+      "D": "Đấu thầu phát hành, bảo lãnh phát hành, đại lý phát hành, bán trực tiếp cho nhà đầu tư"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Nghị định 200"
+  },
+  {
+    "id": "VTT11.58",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Trường hợp chưa đến thời điểm giải ngân theo tiến độ, tổ chức phát hành được sử dụng vốn thu được từ đợt chào bán trái phiếu để:",
+    "options": {
+      "A": "Gửi tiền tại ngân hàng nhà nước, gửi tại ngân hàng thương mại hoặc chi nhánh ngân hàng nước ngoài, mua chứng chỉ tiền gửi do ngân hàng thương mại hoặc chi nhánh ngân hàng nước ngoài phát hành",
+      "B": "Gửi tiền tại ngân hàng thương mại hoặc chi nhánh ngân hàng nước ngoài, mua chứng chỉ tiền gửi do ngân hàng thương mại hoặc chi nhánh ngân hàng nước ngoài phát hành",
+      "C": "Gửi tiền tại ngân hàng nhà nước hoặc mua chứng chỉ tiền gửi do ngân hàng thương mại hoặc chi nhánh ngân hàng nước ngoài phát hành",
+      "D": "Gửi tiền tại ngân hàng nhà nước hoặc gửi tại ngân hàng thương mại hoặc chi nhánh ngân hàng nước ngoài"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Nghị định 200"
+  },
+  {
+    "id": "VTT11.59",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Tổ chức phát hành được phép xem xét thay đổi các điều kiện điều khoản nào sau đây:",
+    "options": {
+      "A": "Mục đích phát hành, kỳ hạn phát hành, lãi suất danh nghĩa, mệnh giá trái phiếu, phương thức thanh toán lãi, gốc trái phiếu",
+      "B": "Mục đích phát hành, kỳ hạn phát hành, lãi suất danh nghĩa, mệnh giá trái phiếu, kế hoạch sử dụng vốn thu được từ phát hành trái phiếu",
+      "C": "Mục đích phát hành, kỳ hạn phát hành, lãi suất danh nghĩa, mệnh giá trái phiếu, phương thức thanh toán lãi, gốc trái phiếu, điều khoản mua lại trước hạn trái phiếu",
+      "D": "Mục đích phát hành, kỳ hạn phát hành, lãi suất danh nghĩa, mệnh giá trái phiếu, kế hoạch sử dụng vốn thu được từ phát hành trái phiếu, điều khoản mua lại trước hạn trái phiếu"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Nghị định 200"
+  },
+  {
+    "id": "VTT11.61",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Khi doanh nghiệp phát hành quyền mua cổ phiếu, ngân hàng lưu ký cần thực hiện:",
+    "options": {
+      "A": "Tự động bán quyền cho khách hàng",
+      "B": "Thông báo và thực hiện theo chỉ thị của khách hàng",
+      "C": "Tự quyết định có tham gia hay không",
+      "D": "Không cần xử lý"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 98,99,136"
+  },
+  {
+    "id": "VTT11.62",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Mục tiêu chính của ngân hàng giám sát quỹ là:",
+    "options": {
+      "A": "Tăng lợi nhuận quỹ",
+      "B": "Đảm bảo quỹ hoạt động đúng theo bản cáo bạch, điều lệ quỹ và các quy định pháp luật có liên quan",
+      "C": "Quản lý danh mục của quỹ",
+      "D": "Tư vấn đầu tư cho khách hàng"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 98,99,136"
+  },
+  {
+    "id": "VTT11.63",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Nếu công ty quản lý quỹ đầu tư vượt tỷ lệ quy định, ngân hàng giám sát phải:",
+    "options": {
+      "A": "Tự động điều chỉnh danh mục",
+      "B": "Tự động bán chứng khoán trong danh mục của quỹ",
+      "C": "Ghi nhận và báo cáo vi phạm cho UBCKNN",
+      "D": "Không phải làm gì"
+    },
+    "answer": "C",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 98,99,136"
+  },
+  {
+    "id": "VTT11.64",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo quy định, tài sản quỹ phải được lưu ký tại:",
+    "options": {
+      "A": "Công ty quản lý quỹ",
+      "B": "Ngân hàng lưu ký",
+      "C": "Sở giao dịch",
+      "D": "Công ty chứng khoán"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 98,99,136"
+  },
+  {
+    "id": "VTT11.66",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Ngân hàng lưu ký có trách nhiệm nào sau đây?",
+    "options": {
+      "A": "Đảm bảo lợi nhuận đầu tư cho khách hàng",
+      "B": "Quản lý tài sản chứng khoán tách biệt với tài sản của ngân hàng",
+      "C": "Can thiệp vào quyết định đầu tư của khách hàng",
+      "D": "Tư vấn phát hành cổ phiếu cho khách hàng"
+    },
+    "answer": "B",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 98,99,136"
+  },
+  {
+    "id": "VTT11.70",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Theo quy định tại Thông tư 40/2016/TT-NHNN, ngân hàng thương mại được cấp tín dụng cho khách hàng trong cung ứng sản phẩm phái sinh giá cả hàng hóa trong các trường hợp sau:",
+    "options": {
+      "A": "Ký quỹ ban đầu hoặc bổ sung phần ký quỹ còn thiếu trên tài khoản ký quỹ của khách hàng",
+      "B": "Thanh toán nghĩa vụ phát sinh theo thỏa thuận tại hợp đồng nhận, thực hiện lệnh mua bán hợp đồng tiêu chuẩn về PSGCHH",
+      "C": "Chỉ được cấp tín dụng trong giao dịch nhận, thực hiện lệnh mua, bán hợp đồng không tiêu chuẩn về PSGCHH",
+      "D": "Không được cấp tín dụng cho khách hàng để ký quỹ ban đầu hoặc bổ sung phần ký quỹ còn thiếu trên tài khoản ký quỹ của khách hàng, hoặc để thanh toán nghĩa vụ phát sinh theo thỏa thuận tại hợp đồng nhận, thực hiện lệnh mua bán hợp đồng tiêu chuẩn về PSGCHH"
+    },
+    "answer": "D",
+    "difficulty": "Cơ bản",
+    "reference": "Thông tư 40/2016/TT-NHNN"
+  },
+  {
+    "id": "VTT13.05",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Mệnh giá 01 trái phiếu được chào bán theo phương thức phát hành riêng lẻ tại thị trường trong nước",
+    "options": {
+      "A": "Theo thỏa thuận giữa VCB và nhà đầu tư",
+      "B": "100.000 VND",
+      "C": "100.000.000 VND",
+      "D": "Tất cả các đáp án trên"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Quy trình 1482/QT-VCB-PTSP&GSGDV ngày 09/08/2024"
+  },
+  {
+    "id": "VTT13.11",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Nguyên tắc sử dụng GHTD nào liên quan đến giao dịch mua hẳn miễn truy đỏi (MHMTĐ) theo L/C do VCB phát hành đúng?",
+    "options": {
+      "A": "Giao dịch MHMTĐ Bộ chứng từ theo L/C do VCB phát hành sử dụng GHTD của bên thụ hưởng tại VCB và số dư L/C đã được tính vào GHTD của Bên đề nghị phát hành L/C khi Chi nhánh phát hành chấp nhận thanh toán không hủy ngang và vô điều kiện Bộ chứng từ vào ngày đến hạn thanh toán L/C",
+      "B": "Giao dịch MHMTĐ Bộ chứng từ theo L/C do VCB phát hành không sử dụng GHTD của bên thụ hưởng tại VCB, không tính số dư L/C đã được tính vào GHTD của Bên đề nghị phát hành L/C khi Chi nhánh phát hành chấp nhận thanh toán không hủy ngang và vô điều kiện Bộ chứng từ vào ngày đến hạn thanh toán L/C",
+      "C": "Giao dịch MHMTĐ Bộ chứng từ theo L/C do VCB phát hành không sử dụng GHTD của bên thụ hưởng tại VCB mà được xem xét, thực hiện trên cơ sở số dư L/C đã được tính vào GHTD của Bên đề nghị phát hành L/C khi Chi nhánh phát hành chấp nhận thanh toán không hủy ngang và vô điều kiện Bộ chứng từ vào ngày đến hạn thanh toán L/C",
+      "D": "Giao dịch MHMTĐ Bộ chứng từ theo L/C do VCB phát hành sử dụng GHTD của bên thụ hưởng tại VCB đồng thời được xem xét, thực hiện trên cơ sở số dư L/C đã được tính vào GHTD của Bên đề nghị phát hành L/C khi Chi nhánh phát hành chấp nhận thanh toán không hủy ngang và vô điều kiện Bộ chứng từ vào ngày đến hạn thanh toán L/C"
+    },
+    "answer": "C",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định sản phẩm mua hẳn miễn truy đòi bộ chứng từ theo thư tín dụng ban hành theo Quyết định số 1584/QĐ-VCB-CSSPBB.TTTM ngày 26/8/2024"
+  },
+  {
+    "id": "VTT13.12",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Chào bán các sản phẩm kinh doanh vốn cho các cơ quan thuộc Chính phủ và các tổ chức quốc tế như: hoán đổi lãi suất, hoán đổi tỷ giá, giao dịch quyền chọn và một số sản phẩm khác thuộc chức năng nhiệm vụ của đơn vị nào",
+    "options": {
+      "A": "Ban ĐCTC",
+      "B": "Ban KDSPV",
+      "C": "Ban Thị trường tài chính",
+      "D": "Phòng Chính sách sản phẩm vốn"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Quyết định 1798/QĐ-VCB-CS&KHNS ngày 25/4/2025 Về việc Ban hành Quy chế tổ chức và hoạt động của Khối vốn và thị trường Ngân hàng TMCP Ngoại thương Việt Nam"
+  },
+  {
+    "id": "VTT13.17",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Theo quy định hiện hành, đối với bảo lãnh thời hạn mở phải nằm trong GHTD nào cấp cho khách hàng?",
+    "options": {
+      "A": "Giới hạn tín dụng ngắn hạn",
+      "B": "Giới hạn tín dụng trung dài hạn",
+      "C": "Không cần GHTD",
+      "D": "VCB không thực hiện bảo lãnh thời hạn mở"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Quyết định 646/QĐ-VCB ngày 01/04/2025 Hướng dẫn thực hiện Quy định bảo lãnh đối với khách hàng của Ngân hàng TMCP Ngoại thương Việt Nam"
+  },
+  {
+    "id": "VTT13.18",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "Lãi suất tham chiếu áp dụng cho tiền gửi VND tại các TCTD khác",
+    "options": {
+      "A": "VNIBOR cùng kỳ hạn",
+      "B": "VNIBOR kỳ hạn qua đêm (O/N)",
+      "C": "VNIBOR cùng kỳ hạn hoặc kỳ hạn thấp hơn gần nhất kỳ hạn tham chiếu trong trường hợp không có VNIBOR cùng kỳ hạn",
+      "D": "Tất cả các đáp án trên"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Quyết định 1316/QĐ-VCB-HĐQT ngày 29/06/2023 Sửa đổi bổ sung một số điều của Quy chế chuyển giá vốn nội bộ (FTP) trong hệ thống Ngân hàng TMCP Ngoại thương Việt Nam"
+  },
+  {
+    "id": "VTT13.19",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Việc thực hiện thiết lập, rà soát, điều chỉnh và hủy bỏ quan hệ RMA tại VCB cần phải tuân theo yêu cầu nào dưới đây?",
+    "options": {
+      "A": "Phải thực hiện thu thập thông tin nhận biết, xác minh thông tin khách hàng và đánh giá tình hình hoạt động kinh doanh, tính tuân thủ về phòng chống rửa tiền, chống tài trợ khủng bổ và tuân thủ cấm vận với các Đối tác theo quy định hiện hành của VCB trước khi thiết lập RMA.",
+      "B": "Việc thiết lập hoặc duy trì quan hệ RMA phải tuân thủ chính sách chấp nhận khách hàng theo quy định về phòng chống rửa tiền, chống tài trợ khủng bố, cấm vận tại VCB từng thời kỳ.",
+      "C": "Đảm bảo nguyên tắc bình đẳng trong thiết lập quan hệ RMA đối với các loại điện có thể trao đổi giữa VCB và các Đối tác.",
+      "D": "Tất cả các đáp án trên"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": "Quyết định 514/QĐ-VCB-ĐCTC ngày 01/04/2022 v/v ban hành Quy định về thiết lập, rà soát và hủy bỏ quan hệ RMA của VCB"
+  },
+  {
+    "id": "VTT13.23",
+    "pool": "KT26.VTT.KDSPV_chung",
+    "question": "VCB đang duy trì các tài khoản Nostro ngoại tệ nào tại các TCTD nước ngoài",
+    "options": {
+      "A": "USD, EUR, GBP, SGD, HKD, CNY, DKK, NOK, SEK",
+      "B": "AUD, USD, KRW, EUR, GBP, SGD, CHF, SEK, NOK, DKK, THB, JPY",
+      "C": "SGD, EUR, USD, TWD, CHF, USD, GBP, CNY, HKD, JPY",
+      "D": "Không có đáp án đúng"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT13.24",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Đối với các giao dịch phát hành/sửa đổi/xác nhận thư tín dụng,thư bảo lãnh, chấp nhận thanh toán bộ chứng từ theo thư tín dụng, căn cứ để xác định tỷ lệ phí tiêu chuẩn và phí tối thiểu theo xếp hạng tín dụng của khách hàng",
+    "options": {
+      "A": "Thứ tự áp dụng: 1. Xếp hạng tín dụng theo PD 2. Xếp hạng tín dụng theo CR 3. Xếp hạng tín dụng của Moody's 4. Xếp hạng tín dụng của Fitch Rating 5.Xếp hạng tín dụng của S&P",
+      "B": "Thứ tự áp dụng: 1. Xếp hạng tín dụng theo CR 2. Xếp hạng tín dụng theo PD 3. Xếp hạng tín dụng của Moody's 4. Xếp hạng tín dụng của Fitch Rating 5.Xếp hạng tín dụng của S&P",
+      "C": "Thứ tự áp dụng: 1. Xếp hạng tín dụng theo PD 2. Xếp hạng tín dụng của Fitch Rating 3.Xếp hạng tín dụng của S&P 4. Xếp hạng tín dụng theo CR 5. Xếp hạng tín dụng của Moody's",
+      "D": "Thứ tự áp dụng: 1. Xếp hạng tín dụng theo PD 2.Xếp hạng tín dụng của S&P 3. Xếp hạng tín dụng của Fitch Rating 4. Xếp hạng tín dụng theo CR 5. Xếp hạng tín dụng của Moody's"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "QĐ số 307/QĐ-VCB-CSSPV ngày 27/02/2026 của Tổng Giám đốc Ngân hàng TMCP Ngoại thương Việt Nam v/v Ban hành biểu phí áp dụng với khách hàng là ngân hàng tại Ngân hàng TMCP Ngoại thương Việt Nam"
+  },
+  {
+    "id": "VTT13.30",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Công ty A tại Việt Nam nhập khẩu thiết bị từ Hàn Quốc theo hợp đồng trị giá USD 5 triệu. Công ty A đề nghị Vietcombank phát hành L/C trả chậm 180 ngày. Sau khi bộ chứng từ phù hợp được xuất trình, ngân hàng được chỉ định thanh toán ngay cho nhà xuất khẩu với mức chiết khấu nhất định, trong khi Vietcombank chỉ hoàn trả tiền cho ngân hàng này vào ngày đáo hạn sau 180 ngày. Đặc điểm nào dưới đây phản ánh chính xác nhất bản chất của giao dịch UPAS LC?",
+    "options": {
+      "A": "Nhà xuất khẩu chỉ được nhận tiền sau 180 ngày kể từ ngày giao hàng.",
+      "B": "Nhà xuất khẩu được thanh toán ngay, trong khi nhà nhập khẩu được hưởng thời hạn thanh toán trả chậm",
+      "C": "Vietcombank cấp khoản vay trực tiếp cho nhà xuất khẩu",
+      "D": "Giao dịch chỉ được thực hiện khi có xác nhận L/C của ngân hàng nước ngoài."
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT13.31",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Ngày 01/06/2026, VCB phát hành bảo lãnh thực hiện hợp đồng trị giá 50 tỷ đồng cho Công ty A theo đề nghị của khách hàng. Thư bảo lãnh quy định: Ngày hết hiệu lực của bảo lãnh: 15/11/2026; Bảo lãnh được điều chỉnh bởi pháp luật Việt Nam; Sau đó xác định ngày 15/11/2026 rơi vào Chủ nhật. Đến ngày 16/11/2026, bên thụ hưởng xuất trình yêu cầu thanh toán bảo lãnh đáp ứng đầy đủ các điều kiện quy định trong thư bảo lãnh. Theo quy định hiện hành, Vietcombank nên xử lý như thế nào?",
+    "options": {
+      "A": "Từ chối yêu cầu thanh toán vì bảo lãnh đã hết hiệu lực từ 23h59 ngày 15/11/2026.",
+      "B": "Chấp nhận yêu cầu thanh toán vì ngày hết hiệu lực của bảo lãnh được tự động chuyển sang ngày làm việc tiếp theo.",
+      "C": "Chỉ chấp nhận thanh toán nếu khách hàng đề nghị phát hành amendment gia hạn hiệu lực bảo lãnh trước ngày 15/11/2026.",
+      "D": "Chỉ chấp nhận thanh toán nếu bên thụ hưởng và khách hàng cùng xác nhận gia hạn bảo lãnh bằng văn bản."
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định tại Điều 20 khoản 3 của Thông tư 61/2024/TT-NHNN về bảo lãnh ngân hàng"
+  },
+  {
+    "id": "VTT13.35",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Khách hàng có L/C xuất khẩu trả chậm nhưng chưa được ngân hàng phát hành chấp nhận thanh toán thì trường hợp nào có thể áp dụng được sản phẩm MHMTĐ bộ chứng từ theo L/C xuất khẩu",
+    "options": {
+      "A": "VCB chỉ thực hiện Mua hẳn Bộ chứng từ sau khi có chấp nhận thanh toán của Ngân hàng phát hành",
+      "B": "VCB thực hiện mua hẳn ngay khi xuất trình bộ chứng từ phù hợp mà không cần xem xét ngân hàng phát hành và hạn mức.",
+      "C": "VCB thực hiện mua hẳn khi người xuất khẩu cam kết hoàn trả toàn bộ số tiền trong trường hợp ngân hàng phát hành từ chối thanh toán",
+      "D": "VCB thực hiện mua hẳn ngay sau khi phát hành L/C trả chậm, không phụ thuộc vào việc bộ chứng từ đã được xuất trình hay chưa"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": "Quy định sản phẩm mua hẳn miễn truy đòi bộ chứng từ theo thư tín dụng theo Quyết định số 1584/QĐ-VCB-CSSPBB.TTTM ngày 26/8/2024"
+  },
+  {
+    "id": "VTT13.46",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Trong tính năng “Chuyển tiền tương lai”, yếu tố nào dưới đây KHÔNG phải là giá trị vận hành chính mà VCB Money mới hướng tới?",
+    "options": {
+      "A": "Chủ động lập lịch thanh toán trước ngày hiệu lực",
+      "B": "Giảm áp lực xử lý giao dịch tại ngày thanh toán",
+      "C": "Tăng mức độ tự động hóa vận hành thanh toán",
+      "D": "Cho phép giao dịch tự động bỏ qua các bước phê duyệt tiếp theo"
+    },
+    "answer": "D",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT13.54",
+    "pool": "KT26.VTT.CSSPV_n1",
+    "question": "Đối với sản phẩm nhận ủy thác phát hành thư tín dụng, Điều kiện cấp tín dụng đối với Bên ủy thác bao gồm những điều kiện nào?",
+    "options": {
+      "A": "Bên ủy thác Đã ký kết hợp đồng khung với VCB và được VCB cấp GHTD TTTM",
+      "B": "Bên ủy thác phận loại nợ từ nhóm 2 theo nhóm nợ VCB (điều kiện này không áp dụng trong trường hợp bên Ủy thác không phát sinh quan hệ tín dụng tại VCB tại thời điểm thẩm định CTD",
+      "C": "Bên ủy thác không có nợ xấu (nợ từ nhóm 3 trở lên, nợ đã xử lý dự phòng rủi ro) tại VCB và/hoặc các TCTD khác trong vòng 10 năm gần nhất tính đến thời điểm phê duyệt giao dịch NUTPH",
+      "D": "Bên ủy thác phải có tiền gửi và tài sản bảo đảm tại VCB với giá trị tối thiểu bằng 100% trị giá thư tín dụng nhận ủy thác phát hành"
+    },
+    "answer": "A",
+    "difficulty": "Nâng cao",
+    "reference": ""
+  },
+  {
+    "id": "VTT13.56",
+    "pool": "KT26.VTT.KDSPV_n2",
+    "question": "Ngân hàng X đề xuất Auto-Investment Facility (AIF) cho tài khoản Nostro JPY của VCB. Mục tiêu chính của sản phẩm này là gì?",
+    "options": {
+      "A": "Tăng hạn mức thanh toán quốc tế",
+      "B": "Tự động đầu tư phần số dư vượt mức tối thiểu để tạo lợi nhuận",
+      "C": "Bảo lãnh giao dịch ngoại thương",
+      "D": "Giảm yêu cầu KYC"
+    },
+    "answer": "B",
+    "difficulty": "Nâng cao",
+    "reference": ""
   }
 ]);

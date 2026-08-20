@@ -10,7 +10,7 @@ import {
 } from "./quiz-core.js";
 
 const STORAGE_KEY = "vtt-quiz-2026-active-attempt";
-const STORAGE_VERSION = 3;
+const STORAGE_VERSION = 4;
 const DISPLAY_LETTERS = OPTION_KEYS;
 
 const elements = {
@@ -94,9 +94,6 @@ function serializeAttempt() {
   return {
     version: STORAGE_VERSION,
     questionIds: state.questions.map((question) => question.id),
-    optionOrders: Object.fromEntries(
-      state.questions.map((question) => [question.id, question.optionOrder]),
-    ),
     answers: state.answers,
     flagged: [...state.flagged],
     currentIndex: state.currentIndex,
@@ -120,13 +117,7 @@ function readSavedAttempt() {
     const questions = saved.questionIds
       .map((id) => {
         const question = QUESTION_BANK.find((item) => item.id === id);
-        const optionOrder = saved.optionOrders?.[id];
-        const validOrder =
-          Array.isArray(optionOrder) &&
-          optionOrder.length === DISPLAY_LETTERS.length &&
-          new Set(optionOrder).size === DISPLAY_LETTERS.length &&
-          optionOrder.every((letter) => DISPLAY_LETTERS.includes(letter));
-        return question && validOrder ? { ...question, optionOrder } : null;
+        return question ? { ...question, optionOrder: [...DISPLAY_LETTERS] } : null;
       })
       .filter(Boolean);
     if (questions.length !== TOTAL_QUESTIONS) return null;
